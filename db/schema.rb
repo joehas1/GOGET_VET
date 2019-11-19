@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_11_18_235957) do
+ActiveRecord::Schema.define(version: 2019_11_19_001231) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,6 +34,15 @@ ActiveRecord::Schema.define(version: 2019_11_18_235957) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_clients_on_user_id"
+  end
+
+  create_table "favorited_vets", force: :cascade do |t|
+    t.bigint "vet_id"
+    t.bigint "client_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["client_id"], name: "index_favorited_vets_on_client_id"
+    t.index ["vet_id"], name: "index_favorited_vets_on_vet_id"
   end
 
   create_table "pets", force: :cascade do |t|
@@ -73,6 +82,8 @@ ActiveRecord::Schema.define(version: 2019_11_18_235957) do
   add_foreign_key "appointments", "clients"
   add_foreign_key "appointments", "vets"
   add_foreign_key "clients", "users"
+  add_foreign_key "favorited_vets", "clients"
+  add_foreign_key "favorited_vets", "vets"
   add_foreign_key "pets", "clients"
   add_foreign_key "vets", "users"
 end
