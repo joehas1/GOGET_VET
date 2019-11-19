@@ -1,0 +1,115 @@
+.nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  background-image: asset-url('header-semicircle.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+
+}
+i{
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.home-banner {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.home-right{
+  background: url('https://images.unsplash.com/photo-1521673461164-de300ebcfb17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80');
+}
+.home-left{
+  background: url('https://images.unsplash.com/photo-1556750539-dc6305f4f248?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80');
+}
+.home-actions {
+  flex-basis: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-button{
+  background: $orange;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+
+  color:#FAF7F5;
+  text-align:center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  width:100px;
+  height:100px;
+  margin-top:335px;
+
+}
+.doctor-button{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  text-align: center;
+  font-size: 12px;
+  font:Montserrat;
+  background: #FAF7F5;
+  font-style: normal;
+
+  font-weight: normal;
+  line-height:15px;
+  align-items:center;
+  display:flex;
+  width:auto;
+  height:auto;
+  padding:10px;
+  margin-left:35%;
+  margin-bottom: 30px;
+}
+
+// .home-about {
+//   display: flex;
+//   width: 100vw;
+//   height: 100vh;
+//   position: relative;
+// }
+
+// .home-bottom-buttons {
+//   background: #FAF7F5;;
+//   border-radius: 25px;
+//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+
+//   color:#FAF7F5;
+//   text-align:center;
+//   font-family: Montserrat;
+//   font-style: normal;
+//   font-size: 15px;
+//   line-height: 18px;
+//   width:100px;
+//   height:100px;
+//   margin-top:335px;
+// }
+// .about-text{
+//   text-align:justify !important;
+//   padding: 40px !important;
+//   font-size: 12px;
+//   font-family:Montserrat;
+//   font-weight:normal;
+//   width:300px;
+// }
+// .btn-actions{
+//   flex-basis: 50%;
+//   height: 100%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   color:black;
+// }
+
