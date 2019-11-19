@@ -13,10 +13,10 @@ class AppointmentsController < ApplicationController
     @appointment = Appointment.new
     # authorize @appointment
     @appointment.date_time = "2019-11-#{params[:appointment]['check_out_date_time(3i)']}"
-    @appointment.user = current_user
+    @appointment.client = current_user
     @appointment.vet = @vet
     @appointment.save!
-    redirect_to bookings_path
+    redirect_to
   end
 
   def destroy
