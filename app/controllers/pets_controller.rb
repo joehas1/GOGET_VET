@@ -1,17 +1,5 @@
 class PetsController < ApplicationController
-  def new
-
-  end
-
-  def create
-  end
-
   def index
-  end
-
-  def update
-  end
-
-  def edit
+    @pets = Pet.where(user: current_user)
   end
 end
