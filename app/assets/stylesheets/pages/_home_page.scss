@@ -1,5 +1,10 @@
+h3 {
+  width: max-content;
+  margin-left: 15%;
+}
+
 .home-page{
-  background: #FAF7F5;
+  background: $light-gray;
 }
 .nav{
   position: absolute;
@@ -47,7 +52,8 @@ i{
   justify-content: center;
 }
 .home-button{
-  background: $orange;
+
+  background: $pink;
   border-radius: 25px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 
