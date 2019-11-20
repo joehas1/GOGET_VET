@@ -1,0 +1,17 @@
+<h1>Fill out your client profile</h1>
+  <div class="form-new">
+    <%= simple_form_for(@client) do |f| %>
+      <div class="form-group">
+        <%= f.label :address %>
+        <%= f.text_field :address, class: 'form-control' %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :languages %>
+        <%= f.text_field :languages, class: 'form-control' %>
+      </div>
+
+      <%= f.submit class: 'btn btn-white' %>
+    <% end %>
+</div>
+
