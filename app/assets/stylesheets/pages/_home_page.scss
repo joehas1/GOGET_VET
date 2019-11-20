@@ -26,6 +26,7 @@ h3 {
 i{
   padding-left: 5px;
   padding-top: 5px;
+  color: $white;
 }
 
 .home-banner {
@@ -51,44 +52,6 @@ i{
   align-items: center;
   justify-content: center;
 }
-.home-button{
-  background: $pink;
-  border-radius: 25px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-
-  color:#FAF7F5;
-  text-align:center;
-  font-family: Montserrat;
-  font-style: normal;
-  font-size: 15px;
-  line-height: 18px;
-  width:100px;
-  height:100px;
-  margin-top:335px;
-
-}
-.doctor-button{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100px;
-  text-align: center;
-  font-size: 12px;
-  font:Montserrat;
-  background: #FAF7F5;
-  font-style: normal;
-
-  font-weight: normal;
-  line-height:15px;
-  align-items:center;
-  display:flex;
-  width:auto;
-  height:auto;
-  padding:10px;
-  margin-left:35%;
-  margin-bottom: 30px;
-}
 
 .home-about {
   width: 100vw;
@@ -96,30 +59,6 @@ i{
   position: relative;
 }
 
-.home-bottom-buttons {
-  position: absolute;
-  // bottom: 0;
-  // left: 0;
-  // right: 0;
-  height: 100px;
-  text-align: center;
-  font-size: 12px;
-  font:Montserrat;
-  background: #FAF7F5;
-  font-style: normal;
-
-  font-weight: normal;
-  line-height:15px;
-  align-items:center;
-  display:flex;
-  width:25%;
-  height:auto;
-  padding:10px;
-  width:auto;
-  background: #FAF7F5;
-  mix-blend-mode: normal;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-}
 .about-text{
   text-align:justify !important;
   padding: 40px !important;
@@ -127,9 +66,13 @@ i{
   font-family:Montserrat;
   font-weight:normal;
   width:100vw;
-
 }
-.btn-actions{
+
+.buttons-bottom{
+  display:flex;
+}
+
+.buttons-actions{
   flex-basis: 50%;
   height: 100%;
   display: flex;
@@ -137,8 +80,4 @@ i{
   justify-content: center;
   color:black;
 }
-.buttons-bottom{
-  display:flex;
-}
-
 
