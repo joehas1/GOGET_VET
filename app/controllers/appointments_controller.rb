@@ -10,13 +10,13 @@ class AppointmentsController < ApplicationController
 
   def create
     @vet = Vet.find(params[:vet_id])
-    @appointment = Appointment.new
+    @appointment = Appointment.new(appointment_params)
     # authorize @appointment
     @appointment.date_time = "2019-11-#{params[:appointment]['check_out_date_time(3i)']}"
     @appointment.client = current_user
     @appointment.vet = @vet
     @appointment.save!
-    redirect_to
+    redirect_to appoints_path(@appointment)
   end
 
   def destroy

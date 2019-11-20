@@ -1,0 +1,15 @@
+
+    <% @vets.each do |vet| %>
+
+    <div class="venue-card">
+
+      <div class="card-product-info">
+          <h2><%= vet.user.first_name %></h2>
+          <h3>$<%= vet.rate %></h3>
+          <p><%= vet.address %> -- only .3 km away</p>
+          <p><%= vet.languages %> </p>
+      </div>
+    </div>
+    <% end %>
+
+
