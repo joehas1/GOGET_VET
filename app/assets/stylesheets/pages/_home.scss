@@ -1,22 +1,29 @@
-
-h3{
-  position: absolute;
-  width: 187px;
-  height: 87px;
-  left: 94px;
-  top: 129px;
-  font:Montserrat;
-  font-size: 18px;
-  font-weight: normal;
+body {
+  background-color: $light-gray;
+  font-family: Montserrat;
+  font-size: 15px;
+  text-align: left;
 }
 
-h1{
-  position: absolute;
-  width: 187px;
-  height: 91px;
-  left: 94px;
-  top: 46px;
-  font:Anaheim;
+h1 {
+  font-family: Barlow;
   font-size: 40px;
+  font-weight: regular;
+  color: $white;
+  text-align: center;
 }
 
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  color: $white;
+  font-weight: lighter;
+}
+
+p {
+  color: white;
+  font-size: 15px;
+}
