@@ -1,3 +1,6 @@
+.home-page{
+  background: #FAF7F5;
+}
 .nav{
   position: absolute;
   top: 0;
@@ -10,9 +13,14 @@
   text-align: center;
 
 }
+.nav-links{
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
 i{
-  padding-left: 15px;
-  padding-top: 15px;
+  padding-left: 5px;
+  padding-top: 5px;
 }
 
 .home-banner {
@@ -23,10 +31,13 @@ i{
 }
 
 .home-right{
-  background: url('https://images.unsplash.com/photo-1521673461164-de300ebcfb17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80');
+  background: url('https://s7d2.scene7.com/is/image/PetSmart/GN0314_LG_MENU-DogAndCat-20160818?$GN3014$');
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
+
 .home-left{
-  background: url('https://images.unsplash.com/photo-1556750539-dc6305f4f248?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80');
+  background: url('https://cdn5.vectorstock.com/i/1000x1000/75/94/set-of-sick-people-cartoon-style-vector-9787594.jpg');
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 .home-actions {
   flex-basis: 50%;
@@ -74,42 +85,55 @@ i{
   margin-bottom: 30px;
 }
 
-// .home-about {
-//   display: flex;
-//   width: 100vw;
-//   height: 100vh;
-//   position: relative;
-// }
+.home-about {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
 
-// .home-bottom-buttons {
-//   background: #FAF7F5;;
-//   border-radius: 25px;
-//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+.home-bottom-buttons {
+  position: absolute;
+  // bottom: 0;
+  // left: 0;
+  // right: 0;
+  height: 100px;
+  text-align: center;
+  font-size: 12px;
+  font:Montserrat;
+  background: #FAF7F5;
+  font-style: normal;
 
-//   color:#FAF7F5;
-//   text-align:center;
-//   font-family: Montserrat;
-//   font-style: normal;
-//   font-size: 15px;
-//   line-height: 18px;
-//   width:100px;
-//   height:100px;
-//   margin-top:335px;
-// }
-// .about-text{
-//   text-align:justify !important;
-//   padding: 40px !important;
-//   font-size: 12px;
-//   font-family:Montserrat;
-//   font-weight:normal;
-//   width:300px;
-// }
-// .btn-actions{
-//   flex-basis: 50%;
-//   height: 100%;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   color:black;
-// }
+  font-weight: normal;
+  line-height:15px;
+  align-items:center;
+  display:flex;
+  width:25%;
+  height:auto;
+  padding:10px;
+  width:auto;
+  background: #FAF7F5;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.about-text{
+  text-align:justify !important;
+  padding: 40px !important;
+  font-size: 12px;
+  font-family:Montserrat;
+  font-weight:normal;
+  width:100vw;
+
+}
+.btn-actions{
+  flex-basis: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+}
+.buttons-bottom{
+  display:flex;
+}
+
 
