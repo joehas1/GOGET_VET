@@ -1,68 +1,29 @@
-.container {
-  margin-right: 5%;
-  margin-left: 5%;
-  padding-top: 10%;
+body {
+  background-color: $light-gray;
+  font-family: Montserrat;
+  font-size: 15px;
+  text-align: left;
 }
 
-.row-blue {
-  width: 375px;
-  height: 386px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: $dark-blue;
+h1 {
+  font-family: Barlow;
+  font-size: 40px;
+  font-weight: regular;
+  color: $white;
+  text-align: center;
 }
 
-.wrapper-title {
-  padding: 5px;
-  margin: 15px;
-}
-
-.wrapper-choice {
-  margin-right: 10px;
-  margin-left: 10px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+h2 {
+  font-size: 20px;
 }
 
 h3 {
-  font-size: 20px;
-  font-weight: light;
+  font-size: 18px;
+  color: $white;
+  font-weight: lighter;
 }
 
 p {
   color: white;
   font-size: 15px;
-}
-
-input {
-  position: absolute;
-  left: -9999px;
-}
-
-label {
-  width: 150px;
-  display: inline-block;
-  position: relative;
-  margin: 20px;
-  padding: 20px 40px 20px 40px;
-  color: $black;
-  background-color: $light-gray;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 25px;
-  white-space: nowrap;
-  cursor: pointer;
-  user-select: none;
-  transition: background-color .2s, box-shadow .2s;
-}
-
-label:hover, input:focus + label {
-  box-shadow: 0 0 10px rgba(0, 0, 0, .6);
-}
-
-input:checked + label {
-  background-color: $pink;
-  color: $white;
 }
