@@ -90,11 +90,13 @@ function myFunction() {
 }
 </script>
 
-
 <!--// FORM LOCATION + DATE AND TIME
+
 <form action="/vets" method="get">
   <label for="location">Location</label>
   <input type="text" name="location" id="location" placeholder="Click to see current address"></input>
+  <input type="hidden" name="Longitude" id="Longitude">
+  <input type="hidden" name="Latitude" id="Latitude">
   <label for="Date">Date of the appointment</label>
   <input type="date" name="usr_date">
   <label for="">Hour of the appointment</label>
@@ -102,7 +104,7 @@ function myFunction() {
   <input type="submit" value="Submit">
 </form>
 
-<%= javascript_pack_tag 'geolocation' %>//-->
+<%= javascript_pack_tag 'geolocation' %>  //-->
 
 
 
