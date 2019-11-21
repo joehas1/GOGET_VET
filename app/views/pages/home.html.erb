@@ -41,7 +41,7 @@
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
           <%= link_to "See Profile", '#', class: "dropdown-item" %>
           <%= link_to "My Appointments", "#", class: "dropdown-item" %>
-          <%= link_to "Log out","#", class: "dropdown-item" %>
+          <%= link_to "Log out",destroy_user_session_path, :method=> 'delete',class: "dropdown-item" %>
         </div>
       </li>
       <div class="nav-text">
@@ -65,14 +65,20 @@
     Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics.
     </p>
     <div class="buttons-bottom">
+
+
+
       <div class="bottom-left buttons-actions">
-        <button class="btn-bottom">
+        <button title= "Go to top" class="btn-bottom" id = "myBtn">
           BACK ON TOP
         </button>
       </div>
+      <%= javascript_pack_tag 'scrollup' %>
+
+
       <div class="bottom-right buttons-actions">
         <button class="btn-bottom">
-        CREATE ACCOUNT
+          <%=link_to "CREATE ACCOUNT", new_user_registration_path %>
         </button>
       </div>
     </div>

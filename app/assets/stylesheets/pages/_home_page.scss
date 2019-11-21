@@ -89,6 +89,7 @@ i{
 
 .buttons-bottom{
   display:flex;
+  text-decoration: none;
 }
 
 .buttons-actions{
@@ -98,8 +99,12 @@ i{
   align-items: center;
   justify-content: center;
   color:black;
+  text-decoration:none;
 }
 
+#myBtn:hover {
+  background-color: #555;
+}
 .buttons-form {
   display: flex;
   margin-top: 440px;
