@@ -1,4 +1,7 @@
 const x = document.getElementById("location");
+const latitude = document.getElementById("Latitude");
+const longitude = document.getElementById("Longitude");
+
 
 
 function getLocation() {
@@ -9,8 +12,10 @@ function getLocation() {
   }
 }
 
-function showPosition(position) {
 
+function showPosition(position) {
+  latitude.value = position.coords.latitude
+  longitude.value = position.coords.longitude
   fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${position.coords.longitude},${position.coords.latitude}.json?access_token=pk.eyJ1Ijoib2Rwb2xvIiwiYSI6ImNqdGg2Znd1YzBibmc0M3AyMGpsY3hpZjYifQ.U0j8X1KdXoWdUzdeONfeIQ`)
   .then(res => res.json())
   .then(json => {

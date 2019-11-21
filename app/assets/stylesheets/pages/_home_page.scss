@@ -39,6 +39,7 @@ i{
   width: 100vw;
   height: 100vh;
   position: relative;
+  margin-top: -630px;
 }
 
 .home-right{
@@ -101,13 +102,11 @@ i{
   text-decoration:none;
 }
 
-// #myBtn{
-//   display: none; /* Hidden by default */
-//   position: fixed; /* Fixed/sticky position */
-//   bottom: 20px;
-
-// }
-
 #myBtn:hover {
   background-color: #555;
 }
+.buttons-form {
+  display: flex;
+  margin-top: 440px;
+}
+

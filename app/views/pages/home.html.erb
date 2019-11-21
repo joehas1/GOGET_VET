@@ -1,17 +1,39 @@
+<!--// FORM LANGUAGES  //-->
+<div>
+  <div class="row-text">
+    <h3>Complete the form so that we <br> can find the best matched <br> doctor for you...</h3>
+  </div>
+  <div class="row-blue">
+    <div class="wrapper-title">
+      <p>WHICH LANGUAGE DO YOU SPEAK?</p>
+    </div>
+    <div class="wrapper-choice">
+      <input id="language1" type="checkbox" checked>
+      <label for="language1">ENGLISH</label>
+      <input id="language2" type="checkbox">
+      <label for="language2">FRENCH</label>
+      <input id="language3" type="checkbox">
+      <label for="language3">SPANISH</label>
+      <input id="language4" type="checkbox">
+      <label for="language4">ITALIAN</label>
+      <input id="language5" type="checkbox">
+      <label for="language5">ARABIC</label>
+      <input id="language6" type="checkbox">
+      <label for="language6">CHINESE</label>
+    </div>
+  </div>
+  <div class="buttons-form">
+    <div class="bottom-left buttons-actions">
+      <button class="btn-pink-small">GO BACK</button>
+    </div>
+    <div class="bottom-right buttons-actions">
+      <button class="btn-pink-small">NEXT</button>
+    </div>
+  </div>
+</div>
 
-<form action="/vets" method="get">
-  <label for="location">Location</label>
-  <input type="text" name="location" id="location" placeholder="Click to see current address"></input>
-  <label for="Date">Date of the appointment</label>
-  <input type="date" name="usr_date">
-  <label for="">Hour of the appointment</label>
-  <input type="time" name="usr_time">
-  <input type="submit" value="Submit">
-</form>
-
-<%= javascript_pack_tag 'geolocation' %>
-
-<div class="home-page">
+<!--// HOME PAGE (need a doctor or a vet) //-->
+<div class="home-page" id="myDIV">
   <div class="home-banner">
     <div class="nav">
       <li class="nav-links dropdown">
@@ -31,7 +53,7 @@
       <button class="btn-pink">I NEED<br>A DOCTOR</button>
     </div>
     <div class="home-right home-actions">
-      <button class="btn-pink">I NEED<br>A VET</button>
+      <button onclick="myFunction()" class="btn-pink">I NEED<br>A VET</button>
     </div>
     <button class="btn-transparent i-am-dr">I AM A DOCTOR</button>
   </div>
@@ -61,37 +83,34 @@
       </div>
     </div>
   </div>
+</div>
 
+<script>
+function myFunction() {
+  var x = document.getElementById('myDIV');
+  if (x.style.display === 'none') {
+    x.style.display = 'block';
+  } else {
+    x.style.display = 'none';
+  }
+}
+</script>
 
-<!--// FORM LANGUAGES
+<!--// FORM LOCATION + DATE AND TIME
 
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <h3>Complete the form so that we can find the best matched doctor for you...</h3>
-        <div class="row-blue">
-          <div class="wrapper-title">
-            <p>WHICH LANGUAGE DO YOU SPEAK?</p>
-          </div>
-          <div class="wrapper-choice">
-            <input id="language1" type="checkbox" checked>
-            <label for="language1">ENGLISH</label>
-            <input id="language2" type="checkbox">
-            <label for="language2">FRENCH</label>
-            <input id="language3" type="checkbox">
-            <label for="language3">SPANISH</label>
-            <input id="language4" type="checkbox">
-            <label for="language4">ITALIAN</label>
-            <input id="language5" type="checkbox">
-            <label for="language5">ARABIC</label>
-            <input id="language6" type="checkbox">
-            <label for="language6">CHINESE</label>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> //-->
+<form action="/vets" method="get">
+  <label for="location">Location</label>
+  <input type="text" name="location" id="location" placeholder="Click to see current address"></input>
+  <input type="hidden" name="Longitude" id="Longitude">
+  <input type="hidden" name="Latitude" id="Latitude">
+  <label for="Date">Date of the appointment</label>
+  <input type="date" name="usr_date">
+  <label for="">Hour of the appointment</label>
+  <input type="time" name="usr_time">
+  <input type="submit" value="Submit">
+</form>
+
+<%= javascript_pack_tag 'geolocation' %>  //-->
 
 
 
