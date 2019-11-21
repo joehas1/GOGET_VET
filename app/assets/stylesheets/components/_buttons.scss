@@ -110,3 +110,20 @@
   background-color: $dark-blue;
   color: $white;
 }
+
+.btn-pink-small{
+  position: absolute;
+  background: #FB9F88;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  color: #FAF7F5;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 80px;
+  width: 147px;
+  height: 35px;
+  border: none;
+}
