@@ -6,12 +6,11 @@
 }
 
 .homepage-btn{
-  right:25px !important;
+  left:110px !important;
   top:25px !important;
   position: relative !important;
   background: rgba(38, 79, 115, 0.95);
   width: 100px !important;
-  margin-left: 265px !important;
   color:white !important;
 }
 
@@ -72,6 +71,8 @@
 .more-info-btn{
   left: 0px;
   background: #FAF7F5;
+  color:black !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 .profile-card-info h2{
   padding: 10px !important;
