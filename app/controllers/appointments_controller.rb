@@ -3,6 +3,15 @@ class AppointmentsController < ApplicationController
 
   def show
     @vet = @appointment.vet
+    @client = @appointment.client
+    @markers = {
+      lat: @vet.latitude,
+      lng: @vet.longitude
+    },
+    {
+      lat: @client.latitude,
+      lng: @client.longitude
+    }
   end
 
   def new
