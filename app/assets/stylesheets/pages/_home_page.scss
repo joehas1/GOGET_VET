@@ -88,6 +88,7 @@ i{
 
 .buttons-bottom{
   display:flex;
+  text-decoration: none;
 }
 
 .buttons-actions{
@@ -97,5 +98,16 @@ i{
   align-items: center;
   justify-content: center;
   color:black;
+  text-decoration:none;
 }
 
+// #myBtn{
+//   display: none; /* Hidden by default */
+//   position: fixed; /* Fixed/sticky position */
+//   bottom: 20px;
+
+// }
+
+#myBtn:hover {
+  background-color: #555;
+}
