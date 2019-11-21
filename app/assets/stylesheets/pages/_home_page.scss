@@ -39,6 +39,7 @@ i{
   width: 100vw;
   height: 100vh;
   position: relative;
+  margin-top: -630px;
 }
 
 .home-right{
@@ -97,5 +98,10 @@ i{
   align-items: center;
   justify-content: center;
   color:black;
+}
+
+.buttons-form {
+  display: flex;
+  margin-top: 440px;
 }
 

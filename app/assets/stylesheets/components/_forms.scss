@@ -1,58 +1,82 @@
-// .container {
-//   margin-right: 5%;
-//   margin-left: 5%;
-//   padding-top: 10%;
-// }
+.container-form {
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 10%;
+  position: absolute;
+  width: -webkit-fill-available;
+  top: 40%;
+ }
 
-// .row-blue {
-//   width: 375px;
-//   height: 386px;
-//   position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-//   background-color: $dark-blue;
-// }
+.row-text {
+  padding: 34px;
+  margin-top: 40px;
+  color: $black;
+}
 
-// .wrapper-title {
-//   padding: 5px;
-//   margin: 15px;
-// }
+.row-text h3{
+  color: $black;
+  margin: 5px;
+  margin-top: 15px;
+ }
 
-// .wrapper-choice {
-//   margin-right: 10px;
-//   margin-left: 10px;
-//   display: flex;
-//   justify-content: space-between;
-//   flex-wrap: wrap;
-// }
+.row-blue {
+  width: 375px;
+  height: 386px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $dark-blue;
+ }
 
-// input {
-//   position: absolute;
-//   left: -9999px;
-// }
+ .wrapper-title {
+   padding: 5px;
+   margin: 30px 30px 10px;
+ }
 
-// label {
-//   width: 150px;
-//   display: inline-block;
-//   position: relative;
-//   margin: 20px;
-//   padding: 20px 40px 20px 40px;
-//   color: $black;
-//   background-color: $light-gray;
-//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-//   border-radius: 25px;
-//   white-space: nowrap;
-//   cursor: pointer;
-//   user-select: none;
-//   transition: background-color .2s, box-shadow .2s;
-// }
+ .wrapper-title p {
+  color: $white;
+ }
 
-// label:hover, input:focus + label {
-//   box-shadow: 0 0 10px rgba(0, 0, 0, .6);
-// }
+ .wrapper-choice {
+   margin-right: 10px;
+   margin-left: 10px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ }
 
-// input:checked + label {
-//   background-color: $pink;
-//   color: $white;
-// }
+ input {
+   position: absolute;
+   left: -9999px;
+ }
+
+label {
+  width: 130px;
+  display: inline-block;
+  position: relative;
+  margin: 20px;
+  padding: 20px 30px 20px 30px;
+  color: #000000;
+  background-color: #FAF7F5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: background-color .2s, box-shadow .2s;
+  transition: background-color .2s, box-shadow .2s;
+  text-align: center;
+ }
+
+ label:hover, input:focus + label {
+   box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+ }
+
+ input:checked + label {
+   background-color: $pink;
+   color: $white;
+ }
