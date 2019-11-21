@@ -89,12 +89,12 @@ ActiveRecord::Schema.define(version: 2019_11_19_234347) do
     t.bigint "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "rate"
     t.string "languages"
     t.float "latitude"
     t.float "longitude"
     t.integer "check_in"
     t.integer "check_out"
-    t.integer "rate"
     t.index ["user_id"], name: "index_vets_on_user_id"
   end
 

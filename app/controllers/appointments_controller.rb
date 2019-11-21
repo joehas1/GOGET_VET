@@ -2,6 +2,7 @@ class AppointmentsController < ApplicationController
   before_action :find_appointment, only: [:show, :destroy]
 
   def show
+    @vet = @appointment.vet
   end
 
   def new
