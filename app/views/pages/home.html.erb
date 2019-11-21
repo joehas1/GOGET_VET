@@ -1,3 +1,4 @@
+
 <h1>Pages#home</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
 
@@ -14,3 +15,81 @@
 </form>
 
 <%= javascript_pack_tag 'geolocation' %>
+
+<div class="home-page">
+  <div class="home-banner">
+    <div class="nav">
+      <li class="nav-links dropdown">
+        <a  class= 'dropdown-trigger btn' href="#!" data-target='dropdown1' id='navbarDropdown' data-toggle='dropdown'><i class="material-icons">menu</i></a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+          <%= link_to "See Profile", '#', class: "dropdown-item" %>
+          <%= link_to "My Appointments", "#", class: "dropdown-item" %>
+          <%= link_to "Log out","#", class: "dropdown-item" %>
+        </div>
+      </li>
+      <div class="nav-text">
+        <h1>GOGET</h1>
+        <h3>Primary Care<br>At your home<br>In your language</h3>
+      </div>
+    </div>
+    <div class="home-left home-actions">
+      <button class="btn-pink">I NEED<br>A DOCTOR</button>
+    </div>
+    <div class="home-right home-actions">
+      <button class="btn-pink">I NEED<br>A VET</button>
+    </div>
+    <button class="btn-transparent i-am-dr">I AM A DOCTOR</button>
+  </div>
+
+  <div class="home-about">
+    <p class=about-text>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    <br>
+    <br>
+    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics.
+    </p>
+    <div class="buttons-bottom">
+      <div class="bottom-left buttons-actions">
+        <button class="btn-bottom">
+          BACK ON TOP
+        </button>
+      </div>
+      <div class="bottom-right buttons-actions">
+        <button class="btn-bottom">
+        CREATE ACCOUNT
+        </button>
+      </div>
+    </div>
+  </div>
+
+<!--// FORM LANGUAGES
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3>Complete the form so that we can find the best matched doctor for you...</h3>
+        <div class="row-blue">
+          <div class="wrapper-title">
+            <p>WHICH LANGUAGE DO YOU SPEAK?</p>
+          </div>
+          <div class="wrapper-choice">
+            <input id="language1" type="checkbox" checked>
+            <label for="language1">ENGLISH</label>
+            <input id="language2" type="checkbox">
+            <label for="language2">FRENCH</label>
+            <input id="language3" type="checkbox">
+            <label for="language3">SPANISH</label>
+            <input id="language4" type="checkbox">
+            <label for="language4">ITALIAN</label>
+            <input id="language5" type="checkbox">
+            <label for="language5">ARABIC</label>
+            <input id="language6" type="checkbox">
+            <label for="language6">CHINESE</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> //-->
+
+
+

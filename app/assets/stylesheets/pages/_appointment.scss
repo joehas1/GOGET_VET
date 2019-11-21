@@ -1,0 +1,36 @@
+h3 {
+  width: max-content;
+  margin-left: 15%;
+}
+
+.home-page{
+  background: $light-gray;
+}
+.nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  background-image: asset-url('header-semicircle.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+
+}
+.nav-links{
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+i{
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.home-banner {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}

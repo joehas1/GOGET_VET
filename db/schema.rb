@@ -10,9 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-
-ActiveRecord::Schema.define(version: 2019_11_19_210440) do
-
+ActiveRecord::Schema.define(version: 2019_11_19_214243) do
 
 
   # These are extensions that must be enabled in order to support this database
@@ -61,7 +59,7 @@ ActiveRecord::Schema.define(version: 2019_11_19_210440) do
   end
 
   create_table "pets", force: :cascade do |t|
-    t.string "type"
+    t.string "pets_type"
     t.string "name"
     t.string "history"
     t.bigint "client_id"
@@ -93,14 +91,12 @@ ActiveRecord::Schema.define(version: 2019_11_19_210440) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "languages"
-<<<<<<< HEAD
     t.float "latitude"
     t.float "longitude"
     t.integer "check_in"
     t.integer "check_out"
-=======
     t.integer "rate"
->>>>>>> 3e1307d71b728b6f4a44329f2d653db977955a65
+    t.string "languages"
     t.index ["user_id"], name: "index_vets_on_user_id"
   end
 

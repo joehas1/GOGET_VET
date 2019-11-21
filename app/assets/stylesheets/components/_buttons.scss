@@ -1,0 +1,112 @@
+.btn-pink{
+  position: absolute;
+  background: $pink;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  color:$light-gray;
+  text-align:center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top:80px;
+  width: 135px;
+  height: 90px;
+  border: none;
+}
+
+.btn-pink:hover {
+  background-color: $dark-blue;
+}
+
+.btn-transparent {
+  position: absolute;
+  height: 100px;
+  text-align: center;
+  font-size: 12px;
+  font: Montserrat;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 15px;
+  -webkit-box-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: flex;
+  width: auto;
+  height: auto;
+  padding: 13px;
+  margin-left: 35%;
+  margin-bottom: 40px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  color: $light-gray;
+  border: solid 1px $light-gray;
+}
+
+.btn-transparent:hover {
+  background-color: $dark-blue;
+}
+
+.btn-bottom {
+  position: absolute;
+  height: 100px;
+  text-align: center;
+  font-size: 12px;
+  font:Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height:15px;
+  align-items:center;
+  display:flex;
+  width:25%;
+  height:auto;
+  padding:13px;
+  width:auto;
+  background: $light-gray;
+  border: solid 1px $black;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-bottom:hover {
+  background-color: $dark-blue;
+  color: $light-gray;
+}
+
+.btn-register{
+  background: $pink;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  color:$light-gray;
+  text-align:center;
+  font-size: 12px;
+  padding: 13px 15px;
+  margin-left: 22%;
+  position: fixed;
+  bottom: 40px;
+  right: 18px;
+}
+
+.btn-register:hover {
+  background-color: $dark-blue;
+}
+
+.btn-cancel{
+  text-align: center;
+  font-size: 12px;
+  background-color: $light-gray;
+  align-items:center;
+  display:flex;
+  padding: 13px 15px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 70%;
+  position: fixed;
+  bottom: 40px;
+  left: 18px;
+}
+
+.btn-cancel:hover {
+  background-color: $dark-blue;
+  color: $white;
+}

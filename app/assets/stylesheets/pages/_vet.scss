@@ -1,0 +1,79 @@
+.vet-container{
+  background-color: $dark-blue;
+  height:100vh;
+  width:100vw;
+
+}
+
+.homepage-btn{
+  right:25px !important;
+  top:25px !important;
+  position: relative !important;
+  background: rgba(38, 79, 115, 0.95);
+  width: 100px !important;
+  margin-left: 265px !important;
+  color:white !important;
+}
+
+.doctor-profile-card{
+  background-color: $light-gray;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 100px 35px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.doctor-profile-card h3{
+  color:black !important;
+  padding-top: 30px;
+  padding-bottom:10px;
+  margin-inline-start: 0em !important;
+}
+
+.doctor-picture {
+  width: 85px;
+  height: 85px;
+  border-radius: 85px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.swipe-buttons{
+  display:flex;
+  background-color: $dark-blue;
+  justify-content:space-around;
+  padding-bottom: 75px;
+}
+.swipe-buttons i{
+  font-size: 50px;
+}
+.yes{
+  width: 85px;
+  height:85px;
+  border-radius: 85px;
+  background-color: $pink;
+
+}
+.no{
+  width: 85px;
+  height:85px;
+  border-radius: 85px;
+  background-color: $pink;
+}
+.profile-card-info{
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #FAF7F5;
+  border-radius: 2px;
+  height:215px;
+  margin: 25px;
+  padding: 10px;
+  width:85%;
+}
+.more-info-btn{
+  left: 0px;
+  background: #FAF7F5;
+}
+.profile-card-info h2{
+  padding: 10px !important;
+}
+

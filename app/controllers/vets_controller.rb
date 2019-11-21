@@ -1,8 +1,7 @@
 class VetsController < ApplicationController
 
   def index
-    raise
-
+    @vets = Vet.all
   end
 
 end
