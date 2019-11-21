@@ -31,6 +31,6 @@ class AppointmentsController < ApplicationController
   end
 
   def find_appointment
-    @appointment = Appointment.find([:id])
+    @appointment = Appointment.find(params[:id])
   end
 end

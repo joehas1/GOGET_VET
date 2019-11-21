@@ -6,6 +6,7 @@ Pet.destroy_all
 Vet.destroy_all
 Client.destroy_all
 User.destroy_all
+Appointment.destroy_all
 
 clients = [
   {
@@ -67,12 +68,12 @@ users =[
 
 vets = [
   {
-    address: "Medelin 178",
+    address: "Medellin 178",
     availability: "",
     rate: "4"
   },
   {
-    address: "Medelin 170",
+    address: "Medellin 170",
     availability: "",
     rate: "5"
   },
@@ -80,6 +81,21 @@ vets = [
     address: "Campeche 56",
     availability: "",
     rate: "2"
+  }
+]
+
+appointments = [
+  {
+    description: "Dog has a scrape on its leg",
+    address: "Medellin 178"
+  },
+  {
+    description: "Dog has a very strong cough",
+    address: "Medellin 170"
+  },
+  {
+    description: "Dog has an ear infection",
+    address: "Campeche 56"
   }
 ]
 puts 'Creating users'
@@ -114,3 +130,21 @@ vets.each do |vet|
   v.user = user
   v.save!
 end
+
+appointments.each do |appointment|
+  a = Appointment.new(appointment)
+  client = Client.first
+  a.client = client
+  vet = Vet.first
+  a.vet = vet
+  a.save!
+end
+
+puts 'Creating Appointments'
+
+core_user = User.new
+core_user.email = "tori@gmail.com"
+core_user.password = "123456"
+core_user.save!
+
+puts 'Created core user'
