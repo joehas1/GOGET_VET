@@ -42,20 +42,32 @@ i{
 }
 
 .home-right{
-  background: url('https://s7d2.scene7.com/is/image/PetSmart/GN0314_LG_MENU-DogAndCat-20160818?$GN3014$');
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  background-image: asset-url('cropped-dog.png');
+  background-size: cover;
+  background-position: center;
+  width: 271px;
+  margin-top: -1px;
+}
+
+.home-right .btn-pink{
+  margin-top: 215px;
 }
 
 .home-left{
-  background: url('https://cdn5.vectorstock.com/i/1000x1000/75/94/set-of-sick-people-cartoon-style-vector-9787594.jpg');
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  background-image: asset-url('cropped.png');
+  background-size: cover;
+  background-position: center;
+  width: 271px;
+  margin-top: 136px;
 }
+
 .home-actions {
   flex-basis: 50%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 1;
 }
 
 
