@@ -8,8 +8,7 @@
  }
 
 .row-text {
-  padding: 34px;
-  margin-top: 40px;
+  padding: 67px 30px;
   color: $black;
 }
 
@@ -22,10 +21,6 @@
 .row-blue {
   width: 375px;
   height: 386px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   background-color: $dark-blue;
  }
 
@@ -36,20 +31,47 @@
 
  .wrapper-title p {
   color: $white;
+  margin-top: 20px;
  }
 
  .wrapper-choice {
-   margin-right: 10px;
-   margin-left: 10px;
+   padding: 57px 10px;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
  }
 
- input {
-   position: absolute;
-   left: -9999px;
- }
+.type-choice {
+  display: flex;
+  margin: 0 10px 0 17px;
+}
+
+.type-choice label{
+  padding: 30px 30px 30px 30px;
+  white-space: pre-line;
+  line-height: 17px;
+  margin-top: 70px;
+}
+
+.time-choice {
+  margin: 10px 48px 0 13px;
+}
+
+.time-choice label{
+  width: 100%;
+}
+
+.time-choice p {
+  color: #FAF7F5;
+  text-align: center;
+  font-size: 13px;
+  margin: 20px 20px;
+}
+
+input {
+  position: absolute;
+  left: -9999px;
+}
 
 label {
   width: 130px;
