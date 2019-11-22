@@ -54,19 +54,72 @@
   margin-top: 70px;
 }
 
-.time-choice {
-  margin: 10px 48px 0 13px;
+.time-now {
+  display: flex;
+  margin-left: 18px;
 }
 
-.time-choice label{
+.time-now label{
   width: 100%;
 }
 
-.time-choice p {
+.time-now p {
   color: #FAF7F5;
   text-align: center;
   font-size: 13px;
   margin: 20px 20px;
+}
+
+.time-choose {
+  display: flex;
+  display: flex;
+  margin-left: 15px;
+}
+
+.time-choose label {
+  width: 50%;
+  background-color: transparent;
+  border: solid 1px white;
+  color: white;
+}
+
+.location-choice{
+  display:flex;
+  margin-left: 20px;
+  margin-bottom: 66px;
+}
+
+.location-choice label {
+  width: 100%;
+  margin-left: 15px;
+}
+
+.location-choice p {
+  color: #FAF7F5;
+  text-align: center;
+  font-size: 13px;
+  margin: 20px 20px;
+}
+
+.location-address label{
+  background-color: transparent;
+  border: solid 1px white;
+  color: white;
+}
+
+.symptom-input{
+  height: 350px;
+}
+
+.symptom-input label{
+  width: -webkit-fill-available;
+  height: 225px;
+  border: solid 1px white;
+  background-color: transparent;
+  color: white;
+  margin-top: 21%;
+  text-align: left;
+  line-height: 17px;
 }
 
 input {
