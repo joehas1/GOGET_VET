@@ -20,3 +20,4 @@ triggerTypeNext.addEventListener("click", event => {
   typeForm.style.display = "none"
   timeForm.style.display = "block"
 })
+
