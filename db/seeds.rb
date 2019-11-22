@@ -3,7 +3,7 @@ puts 'Deleting previous data'
 # Appointment.destroy_all
 # FavoritedVet.destroy_all
 Pet.destroy_all
-Vet.destroy_all
+Vet.destroy_all if Rails.env.development?
 Client.destroy_all
 User.destroy_all
 Appointment.destroy_all
@@ -71,18 +71,22 @@ vets = [
     address: "Medellin 178",
     availability: "",
     rate: "4"
+    languages: "french"
   },
   {
     address: "Medellin 170",
     availability: "",
     rate: "5"
+    languages: "english"
   },
   {
     address: "Campeche 56",
     availability: "",
     rate: "2"
+    languages: "spanish"
   }
 ]
+end
 
 appointments = [
   {
