@@ -137,3 +137,18 @@
   border-style: solid 1px $light-gray;
   color: $light-gray;
 }
+
+.btn-transparent-skip {
+    text-align: center;
+    font-size: 12px;
+    font: Montserrat;
+    background-color: transparent;
+    line-height: 15px;
+    display: -webkit-box;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    color: #FAF7F5;
+    float: right;
+    margin: 0px 20px 0px 0;
+}

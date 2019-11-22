@@ -1,20 +1,43 @@
 <div id="time-form" style="display: none;">
-    <div class="wrapper-title">
-      <p>WHEN DO YOU NEED IT?...</p>
-    </div>
-    <div class="time-choice">
-      <input id="time1" type="checkbox" checked>
+  <div class="wrapper-title">
+    <p>WHEN DO YOU NEED IT?...</p>
+  </div>
+  <div class="time-now">
+    <form action="/vets" method="get">
+      <input id="time1" type="checkbox">
       <label for="time1">AS SOON AS POSSIBLE</label>
       <p>------------------------ or ------------------------</p>
-      <input class="btn-bordered" id="time2" type="checkbox">
-      <label for="time2">DD/MM         HH:MM</label>
-    </div>
+      <div class="time-choose">
+        <input id="time2" type="date" name="usr_date" >
+        <label for="Date">DD/MM</label>
+        <input id="time2" type="time" name="usr_time" >
+        <label for="">HH:MM</label>
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
   <div class="buttons-form-time">
     <div class="bottom-left buttons-actions">
       <button class="btn-pink-small">GO BACK</button>
     </div>
     <div class="bottom-right buttons-actions">
-      <button class="btn-pink-small">NEXT</button>
+      <button id="time-next" class="btn-pink-small">NEXT</button>
     </div>
   </div>
 </div>
+
+<!--// FORM LOCATION + DATE AND TIME
+
+<form action="/vets" method="get">
+  <label for="location">Location</label>
+  <input type="text" name="location" id="location" placeholder="Click to see current address"></input>
+  <input type="hidden" name="Longitude" id="Longitude">
+  <input type="hidden" name="Latitude" id="Latitude">
+  <label for="Date">Date of the appointment</label>
+  <input type="date" name="usr_date">
+  <label for="">Hour of the appointment</label>
+  <input type="time" name="usr_time">
+  <input type="submit" value="Submit">
+</form>
+
+<%= javascript_pack_tag 'geolocation' %>  //-->
