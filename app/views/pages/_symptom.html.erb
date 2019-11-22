@@ -1,13 +1,15 @@
 <div id="symptom-form" style="display: none;">
-  <div class="symptom-input">
-    <form>
-      <label for="symptom">PLEASE DESCRIBE YOUR SYMPTOMS <br> IN A FEW WORDS...</label>
-      <input type="text" name="symptom" id="symptom" placeholder="PLEASE DESCRIBE YOUR SYMPTOMS IN A FEW WORDS...">
-    </form>
-  </div>
+  <div class="animated slideInRight mt-4">
+    <div class="symptom-input">
+      <form>
+        <label for="symptom">PLEASE DESCRIBE YOUR SYMPTOMS <br> IN A FEW WORDS...</label>
+        <input type="text" name="symptom" id="symptom" placeholder="PLEASE DESCRIBE YOUR SYMPTOMS IN A FEW WORDS...">
+      </form>
+    </div>
 
-  <div>
-    <button class="btn-transparent-skip">SKIP</button>
+    <div>
+      <button class="btn-transparent-skip">SKIP</button>
+    </div>
   </div>
 
   <div class="buttons-form buttons-form-symptom">
@@ -15,7 +17,7 @@
       <button class="btn-pink-small">GO BACK</button>
     </div>
     <div class="bottom-right buttons-actions">
-      <button class="btn-pink-small">NEXT</button>
+      <button class="btn-pink-small"><%= link_to "NEXT", vets_path%></button>
     </div>
   </div>
 </div>
