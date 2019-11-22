@@ -45,16 +45,19 @@
 </div>
 
 <div id="appointment-modal">
-  <div id="form-language">
-    <div class="row-text">
-      <h3>Complete the form so that we <br> can find the best matched <br> doctor for you...</h3>
-    </div>
-    <div class="row-blue">
-        <%= render "language" %>
-        <%= render "type" %>
-        <%= render "time" %>
-        <%= render "geolocation" %>
-        <%= render "symptom" %>
+  <div class="w3-contatiner w3-center w3-animate-right">
+    <div id="form-language">
+      <div class="row-text">
+        <h3>Complete the form so that we <br> can find the best matched <br> doctor for you...</h3>
+      </div>
+      <div class="row-blue">
+          <%= render "language" %>
+          <%= render "type" %>
+          <%= render "time" %>
+          <%= render "geolocation" %>
+          <%= render "symptom" %>
+        </div>
+
       </div>
     </div>
   </div>
@@ -62,18 +65,4 @@
 
 <%= javascript_pack_tag 'home-forms' %>
 
-<!--// FORM LOCATION + DATE AND TIME
-
-<form action="/vets" method="get">
-  <label for="location">Location</label>
-  <input type="text" name="location" id="location" placeholder="Click to see current address"></input>
-  <input type="hidden" name="Longitude" id="Longitude">
-  <input type="hidden" name="Latitude" id="Latitude">
-  <label for="Date">Date of the appointment</label>
-  <input type="date" name="usr_date">
-  <label for="">Hour of the appointment</label>
-  <input type="time" name="usr_time">
-  <input type="submit" value="Submit">
-</form>
-
-<%= javascript_pack_tag 'geolocation' %>  //-->
+<%= javascript_pack_tag 'geolocation' %> 

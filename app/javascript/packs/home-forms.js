@@ -35,3 +35,4 @@ triggerGeolocationNext.addEventListener("click", event => {
   geolocationForm.style.display = "none"
   symptomForm.style.display = "block"
 })
+
