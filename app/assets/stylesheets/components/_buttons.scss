@@ -116,7 +116,7 @@
   background: #FB9F88;
   border-radius: 25px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-  color: #FAF7F5;
+  color: $white;
   text-align: center;
   font-family: Montserrat;
   font-style: normal;
@@ -126,4 +126,14 @@
   width: 147px;
   height: 35px;
   border: none;
+}
+
+.btn-pink-small:hover {
+  background-color: $dark-blue;
+}
+
+.btn-bordered {
+  background-color: transparent;
+  border-style: solid 1px $light-gray;
+  color: $light-gray;
 }

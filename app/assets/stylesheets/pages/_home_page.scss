@@ -39,7 +39,6 @@ i{
   width: 100vw;
   height: 100vh;
   position: relative;
-  margin-top: -630px;
 }
 
 .home-right{
@@ -70,7 +69,6 @@ i{
   justify-content: center;
   opacity: 1;
 }
-
 
 .home-about {
   width: 100vw;
@@ -107,6 +105,25 @@ i{
 }
 .buttons-form {
   display: flex;
-  margin-top: 440px;
+  margin-top: 20px;
 }
 
+.buttons-form-type {
+  display: flex;
+  margin-top: 150px;
+}
+
+.buttons-form-time {
+  display: flex;
+  margin-top: 78px;
+}
+
+#appointment-modal {
+  display: none;
+  background-color: $light-gray;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
