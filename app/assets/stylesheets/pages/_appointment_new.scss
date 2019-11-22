@@ -1,0 +1,144 @@
+.home-page{
+  background: $light-gray;
+}
+.nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  background-image: asset-url('header-semicircle.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+
+}
+.nav-text-appointment-confirm h2{
+  color:white !important;
+  font-size: 25px !important;
+  position:absolute;
+  top:65px;
+  left:0%;
+  // margin-top:%;
+  // margin-left: %;
+}
+.nav-links{
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.done-all{
+  font-size:60px;
+  position:absolute;
+  top:50%;
+  right:40%;
+}
+
+#navbarDropdown{
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.home-banner {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.map{
+  position: relative;
+  width: 324px;
+  height: 314px;
+  left: 28px;
+  top: 307px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-container{
+  height:100vh;
+  width:100vw;
+
+}
+
+.homepage-btn{
+  left:110px !important;
+  top:25px !important;
+  position: relative !important;
+  background: rgba(38, 79, 115, 0.95);
+  width: 100px !important;
+  color:white !important;
+}
+
+.doctor-confirm-profile-card{
+  background-color: $dark-blue;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 100px 35px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  position:relative;
+  top:215px;
+
+}
+
+.doctor-confirm-profile-card h3{
+  color:black !important;
+  padding-top: 30px;
+  padding-bottom:10px;
+  margin-inline-start: 0em !important;
+}
+
+.doctor-picture {
+  width: 85px;
+  height: 85px;
+  border-radius: 85px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top:15px;
+}
+
+
+.yes-i-am{
+  width: 140px;
+  height:35px;
+  border-radius: 85px;
+  background-color: $pink;
+  color:white !important;
+  background: rgba(255, 115, 80, 0.6);
+
+}
+.no-im-not{
+  width: 140px;
+  height:35px;
+  border-radius: 85px;
+  background-color: $pink;
+  color:white !important;
+  background: rgba(255, 115, 80, 0.6);
+  text-decoration: none;
+
+}
+.profile-card-info{
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #FAF7F5;
+  border-radius: 2px;
+  height:215px;
+  margin: 25px;
+  padding: 10px;
+  width:85%;
+}
+.more-info-btn{
+  left: 0px;
+  background: #FAF7F5;
+  color:black !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.profile-card-info h2{
+  padding: 10px !important;
+}
+.confirm-buttons{
+  display:flex;
+  justify-content:space-around;
+  position: relative;
+  top: 160px;
+}
+
+

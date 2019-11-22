@@ -6,6 +6,7 @@ class AppointmentsController < ApplicationController
   end
 
   def new
+    @vet = Vet.find(params[:vet][:vet_id])
     @appointment = Appointment.new
   end
 
