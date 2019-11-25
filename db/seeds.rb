@@ -2,11 +2,18 @@ puts 'Deleting previous data'
 # AppointedPet.destroy_all
 # Appointment.destroy_all
 # FavoritedVet.destroy_all
+Appointment.destroy_all
 Pet.destroy_all
 Vet.destroy_all
 Client.destroy_all
 User.destroy_all
-# Appointment.destroy_all
+
+appointments = [
+  {
+    description: "",
+    address: "",
+  }
+]
 
 pets = [
   {
@@ -93,48 +100,55 @@ users =[
   }
 ]
 
+clients = [
+  {
+  address: "",
+  languages: ""
+  }
+]
+
 vets = [
   {
     address: "Campeche 101, Roma Sur, Cuauhtémoc, 06760 Ciudad de México, CDMX",
     availability: "",
-    rate: "2"
-    languages: "french, english, spanish"
+    rate: "2",
+    languages: "french english spanish"
   },
   {
     address: "Av. José Martí 219, Escandón I Secc, Miguel Hidalgo, 11800 Ciudad de México, CDMX",
     availability: "",
-    rate: "3"
-    languages: "french, english, spanish"
+    rate: "3",
+    languages: "french english spanish"
   },
   {
     address: "Aguascalientes 114-108, Roma Sur, Cuauhtémoc, 06760 Ciudad de México, CDMX",
     availability: "",
-    rate: "4"
-    languages: "french, english, spanish"
+    rate: "4",
+    languages: "french english spanish"
   },
   {
     address: "Coahuila 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
     availability: "",
-    rate: "5"
-    languages: "french, english, spanish"
+    rate: "5",
+    languages: "french english spanish"
   },
   {
     address: "Culiacan 48, Hipódromo, Cuauhtémoc, 06100 Ciudad de México, CDMX",
     availability: "",
     rate: "2",
-    languages: "french, english, spanish"
+    languages: "french english spanish"
   },
   {
     address: "Agustín Melgar 42, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX",
     availability: "",
-    rate: "3"
-    languages: "french, english, spanish"
+    rate: "3",
+    languages: "french english spanish"
   },
   {
     address: "Tonalá 5, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
     availability: "",
-    rate: "5"
-    languages: "french, english, spanish"
+    rate: "5",
+    languages: "french english spanish"
   }
 ]
 
@@ -144,6 +158,7 @@ users.each do |usr|
   user = User.new(usr)
   user.save!
 end
+
 puts 'Creating clients'
 
 clients.each do |client|
