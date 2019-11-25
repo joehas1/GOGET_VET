@@ -33,9 +33,13 @@
     </div>
     <div class="confirm-buttons">
       <button class="no-im-not"><%=link_to "NO, I'M NOT.", vets_path%></button>
-      <button class="yes-i-am" id="trigger-pet"><%= link_to "YES, I'M SURE.", appointment_path(@vet)%> </button>
+      <button class="yes-i-am" id="trigger-pet">YES, I'M SURE</button>
     </div>
   </div>
+</div>
+
+<div class="pet-container">
+  <%= render "pets_index" %>
 </div>
 
 
