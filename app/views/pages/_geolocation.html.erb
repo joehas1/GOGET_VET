@@ -4,27 +4,24 @@
       <p>WHERE ARE YOU?</p>
     </div>
     <div class="location-choice">
-      <form action="/vets" method="get">
-        <label for="location" id="location">ALLOW LOCALISATION</label>
-        <input type="text" name="location"  placeholder="Click to see current address"></input>
-        <input type="hidden" name="Longitude" id="Longitude"></input>
-        <input type="hidden" name="Latitude" id="Latitude"></input>
-        <!--// <p>------------------------ or ------------------------</p> //-->
+        <label for="location">ALLOW LOCALISATION</label>
+        <input type="text" name="location" id="location" placeholder="Click to see current address">
+        <input type="hidden" name="Longitude" id="Longitude">
+        <input type="hidden" name="Latitude" id="Latitude">
+        <p>------------------------ or ------------------------</p>
         <div class="location-address">
           <label for="location2">ENTER YOUR ADDRES</label>
           <input id="location2" type="checkbox"></input>
         </div>
-      </form>
       <%= javascript_pack_tag 'geolocation' %>
     </div>p
   </div>
-
   <div class="buttons-form">
     <div class="bottom-left buttons-actions">
-      <button class="btn-pink-small">GO BACK</button>
+      <button type="button" class="btn-pink-small">GO BACK</button>
     </div>
     <div class="bottom-right buttons-actions">
-      <button id="geolocation-next" class="btn-pink-small">NEXT</button>
+      <button type="button" id="geolocation-next" class="btn-pink-small">NEXT</button>
     </div>
   </div>
 </div>

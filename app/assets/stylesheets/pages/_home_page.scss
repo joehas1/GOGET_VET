@@ -6,11 +6,13 @@ h3 {
 .home-page{
   background: $light-gray;
 }
+
 .i-am-dr{
   bottom: 0;
   left: 0;
   right: 0;
 }
+
 .nav{
   position: absolute;
   top: 0;
@@ -21,8 +23,8 @@ h3 {
   background-repeat: no-repeat;
   background-size: contain;
   text-align: center;
-
 }
+
 .nav-links{
   margin-left: 15px;
   margin-top: 15px;
@@ -103,14 +105,15 @@ i{
 #myBtn:hover {
   background-color: #555;
 }
+
 .buttons-form {
   display: flex;
-  margin-top: 20px;
+  margin-top: 68px;
 }
 
 .buttons-form-type {
   display: flex;
-  margin-top: 150px;
+  margin-top: 140px;
 }
 
 .buttons-form-time {
