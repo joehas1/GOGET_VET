@@ -8,7 +8,7 @@ function getLocation() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition);
   } else {
-    x.value = "Geolocation is not supported by this browser.";
+    x.innerHTML = "Geolocation is not supported by this browser.";
   }
 }
 
@@ -21,7 +21,7 @@ function showPosition(position) {
   .then(json => {
     const place = json.features[0].place_name
     console.log(json)
-    x.value = place;
+    x.innerHTML = place;
   })
 }
 
