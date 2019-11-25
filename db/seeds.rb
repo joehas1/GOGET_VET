@@ -6,7 +6,7 @@ Pet.destroy_all
 Vet.destroy_all
 Client.destroy_all
 User.destroy_all
-Appointment.destroy_all
+# Appointment.destroy_all
 
 clients = [
   {
@@ -84,20 +84,6 @@ vets = [
   }
 ]
 
-appointments = [
-  {
-    description: "Dog has a scrape on its leg",
-    address: "Medellin 178"
-  },
-  {
-    description: "Dog has a very strong cough",
-    address: "Medellin 170"
-  },
-  {
-    description: "Dog has an ear infection",
-    address: "Campeche 56"
-  }
-]
 puts 'Creating users'
 
 users.each do |usr|
