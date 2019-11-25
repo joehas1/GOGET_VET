@@ -1,6 +1,7 @@
 class VetsController < ApplicationController
   def index
-    @vets = Vet.near(params[:location].to_s, 200)
+    @vets = Vet.all
+    # .near(params[:location].to_s, 200)
   end
 end
 

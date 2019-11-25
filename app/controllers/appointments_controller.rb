@@ -15,7 +15,8 @@ class AppointmentsController < ApplicationController
   end
 
   def new
-    @vet = Vet.find(params[:vet][:vet_id])
+    #@vet = Vet.find(params[:vet][:vet_id])
+    @vet = Vet.first
     @appointment = Appointment.new
   end
 
@@ -27,7 +28,7 @@ class AppointmentsController < ApplicationController
     @appointment.client = current_user
     @appointment.vet = @vet
     @appointment.save!
-    redirect_to appoints_path(@appointment)
+    redirect_to appointments_path(@appointment)
   end
 
   def destroy
