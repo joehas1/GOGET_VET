@@ -1,3 +1,4 @@
+
 <% @vets.each do |vet| %>
 <div class="vet-container">
   <div class="btn-transparent homepage-btn"><%=link_to "HOMEPAGE", root_path%></div>
@@ -19,15 +20,14 @@
     </div>
   <div class="swipe-buttons">
     <button class="no"><i class="material-icons">clear</i></button>
-    <%= form_for :vet, url: new_appointment_path, :method => 'get' do |f|%>
-      <%= f.hidden_field :vet_id, :value => vet.id %>
-      <%= f.submit %>
-    <% end %>
     <button class="yes"><i class="material-icons">check</i></button>
-
-    </form>
   </div>
 </div>
+<%= form_for :vet, url: new_appointment_path, :method => 'get' do |f|%>
+  <%= f.hidden_field :vet_id, :value => vet.id %>
+  <%= f.submit %>
+<% end %>
+
 <%end%>
 
 
