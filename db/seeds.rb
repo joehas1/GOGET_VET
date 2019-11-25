@@ -6,7 +6,7 @@ Pet.destroy_all
 Vet.destroy_all
 Client.destroy_all
 User.destroy_all
-Appointment.destroy_all
+# Appointment.destroy_all
 
 pets = [
   {
@@ -121,7 +121,7 @@ vets = [
   {
     address: "Culiacan 48, Hipódromo, Cuauhtémoc, 06100 Ciudad de México, CDMX",
     availability: "",
-    rate: "4"
+    rate: "2",
     languages: "french, english, spanish"
   },
   {
