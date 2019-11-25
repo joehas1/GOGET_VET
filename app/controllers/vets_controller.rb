@@ -17,6 +17,8 @@ class VetsController < ApplicationController
 
     #language_array.join(" ")
   end
+
+
 end
 
 # Venue.near([40.71, 99.23], :effective_radius)
