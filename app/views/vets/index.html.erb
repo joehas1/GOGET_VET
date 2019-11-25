@@ -1,5 +1,8 @@
 <div class="vet-container">
-  <div class="btn-transparent homepage-btn">HOMEPAGE</div>
+<!--   <div class="btn-transparent">
+ --><button class="btn-transparent homepage-btn"><%=link_to "HOMEPAGE", root_path%></button>
+    <button class="btn-transparent refresh-btn">REFRESH VETS</button>
+  <!-- </div> -->
   <div id="viewport">
     <ul class="stack">
       <% @vets.each do |vet| %>
