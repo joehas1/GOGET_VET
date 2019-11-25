@@ -1,10 +1,8 @@
 <div id="symptom-form" style="display: none;">
   <div class="animated slideInRight mt-4">
     <div class="symptom-input">
-      <form>
         <label for="symptom">PLEASE DESCRIBE YOUR SYMPTOMS <br> IN A FEW WORDS...</label>
         <input type="text" name="symptom" id="symptom" placeholder="PLEASE DESCRIBE YOUR SYMPTOMS IN A FEW WORDS...">
-      </form>
     </div>
 
     <div>
@@ -14,10 +12,10 @@
 
   <div class="buttons-form buttons-form-symptom">
     <div class="bottom-left buttons-actions">
-      <button class="btn-pink-small">GO BACK</button>
+      <button type="button" class="btn-pink-small">GO BACK</button>
     </div>
     <div class="bottom-right buttons-actions">
-      <button class="btn-pink-small"><%= link_to "NEXT", vets_path%></button>
+      <button class="btn-pink-small" type="submit" name="submit">NEXT</button>
     </div>
   </div>
 </div>

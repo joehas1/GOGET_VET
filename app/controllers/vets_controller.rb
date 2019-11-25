@@ -1,7 +1,21 @@
 class VetsController < ApplicationController
   def index
-    @vets= Vet.all
-    # @vets = Vet.near(params[:location].to_s, 200)
+    # language_array = []
+    @vets = Vet.near(params[:location].to_s, 200)
+
+    # language_array << "english" if params[:english] == "on"
+
+    # language_array << "spanish" if params[:spanish] == "on"
+
+    # language_array << "french" if params[:french] == "on"
+
+    # language_array << "german" if params[:german] == "on"
+
+    #language_array << "italian" if params[:italian] == "on"
+
+    #language_array << "chinese" if params[:chinese] == "on"
+
+    #language_array.join(" ")
   end
 end
 
