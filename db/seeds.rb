@@ -8,18 +8,6 @@ Client.destroy_all
 User.destroy_all
 Appointment.destroy_all
 
-clients = [
-  {
-    address: "Campeche 233, Condesa"
-  },
-  {
-    address: "Ario 18, Roma Norte"
-  },
-  {
-    address: "Sonora 144, Condesa"
-  }
-]
-
 pets = [
   {
     pets_type: "Dog - Labrador",
@@ -38,66 +26,118 @@ pets = [
     name: "Muddy the 1st",
     history: "All vaccines cleared",
     picture: "https://images.unsplash.com/photo-1567201080580-bfcc97dae346?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80"
-  }
+  },
+  {
+    pets_type: "dog - Pug",
+    name: "Clinton",
+    history: "All vaccines cleared",
+    picture: "https://images.unsplash.com/photo-1553481829-2391f26d609c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80"
+  },
+  {
+    pets_type: "dog - Poodle",
+    name: "Roux",
+    history: "All vaccines cleared",
+    picture: "https://images.unsplash.com/photo-1516371535707-512a1e83bb9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+  },
 ]
 
 users =[
   {
-    email: "client1@gmail.com",
+    email: "user1@gmail.com",
     password: "123456",
     first_name: "Kelly",
     last_name: "Walker",
-    picture: ""
+    picture: "https://images.unsplash.com/photo-1524593689594-aae2f26b75ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
   },
   {
-    email: "client2@gmail.com",
+    email: "user2@gmail.com",
     password: "123456",
     first_name: "René",
     last_name: "Dupuis",
-    picture: ""
-
+    picture: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80"
   },
   {
-    email: "client3@gmail.com",
+    email: "user3@gmail.com",
     password: "123456",
     first_name: "Martin",
     last_name: "Wouters",
-    picture: ""
+    picture: "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+  },
+  {
+    email: "user4@gmail.com",
+    password: "123456",
+    first_name: "Sacha",
+    last_name: "Sweetish",
+    picture: "https://images.unsplash.com/photo-1558898479-33c0057a5d12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+  },
+  {
+    email: "user5@gmail.com",
+    password: "123456",
+    first_name: "Marcus",
+    last_name: "Delablo",
+    picture: "https://images.unsplash.com/photo-1552072805-2a9039d00e57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+  },
+  {
+    email: "user6@gmail.com",
+    password: "123456",
+    first_name: "Josephine",
+    last_name: "Vankap",
+    picture: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+  },
+  {
+    email: "user7@gmail.com",
+    password: "123456",
+    first_name: "Lawrence",
+    last_name: "Campton",
+    picture: "https://images.unsplash.com/photo-1544098485-2a2ed6da40ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
   }
 ]
 
 vets = [
   {
-    address: "Medellin 178",
-    availability: "",
-    rate: "4"
-  },
-  {
-    address: "Medellin 170",
-    availability: "",
-    rate: "5"
-  },
-  {
-    address: "Campeche 56",
+    address: "Campeche 101, Roma Sur, Cuauhtémoc, 06760 Ciudad de México, CDMX",
     availability: "",
     rate: "2"
+    languages: "french, english, spanish"
+  },
+  {
+    address: "Av. José Martí 219, Escandón I Secc, Miguel Hidalgo, 11800 Ciudad de México, CDMX",
+    availability: "",
+    rate: "3"
+    languages: "french, english, spanish"
+  },
+  {
+    address: "Aguascalientes 114-108, Roma Sur, Cuauhtémoc, 06760 Ciudad de México, CDMX",
+    availability: "",
+    rate: "4"
+    languages: "french, english, spanish"
+  },
+  {
+    address: "Coahuila 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    availability: "",
+    rate: "5"
+    languages: "french, english, spanish"
+  },
+  {
+    address: "Culiacan 48, Hipódromo, Cuauhtémoc, 06100 Ciudad de México, CDMX",
+    availability: "",
+    rate: "4"
+    languages: "french, english, spanish"
+  },
+  {
+    address: "Agustín Melgar 42, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX",
+    availability: "",
+    rate: "3"
+    languages: "french, english, spanish"
+  },
+  {
+    address: "Tonalá 5, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    availability: "",
+    rate: "5"
+    languages: "french, english, spanish"
   }
 ]
 
-appointments = [
-  {
-    description: "Dog has a scrape on its leg",
-    address: "Medellin 178"
-  },
-  {
-    description: "Dog has a very strong cough",
-    address: "Medellin 170"
-  },
-  {
-    description: "Dog has an ear infection",
-    address: "Campeche 56"
-  }
-]
 puts 'Creating users'
 
 users.each do |usr|
