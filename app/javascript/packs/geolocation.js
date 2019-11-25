@@ -1,7 +1,7 @@
 const x = document.getElementById("location");
 const latitude = document.getElementById("Latitude");
 const longitude = document.getElementById("Longitude");
-
+const address = document.getElementById("address");
 
 
 function getLocation() {
@@ -22,6 +22,7 @@ function showPosition(position) {
     const place = json.features[0].place_name
     console.log(json)
     x.innerHTML = place;
+    address.value = place;
   })
 }
 
