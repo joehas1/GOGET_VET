@@ -1,15 +1,47 @@
-input{
+.nav-logo img{
+  border-style: none;
+  width: 300px;
+  margin: 20px 0px 0px 30px;
+}
+
+.login-form{
+  width: 100%;
+  margin-top: 266px;
+  padding: 30px;
+}
+
+.login-form label {
+  border-radius: 0;
+  border: none;
+  padding: 0;
+  margin: 0px 0px 30px;
+  box-shadow: none;
+}
+
+.login-form input{
   position:relative;
   left:0px;
+}
+
+.email-input {
+  background-color: $orange;
+}
+
+.password-input {
+  background-color: $pink;
+}
+
+.remember-me {
+  background-color: $black;
 }
 
 .login-actions{
   padding:30px;
 }
 
-
 .email{
-border-radius:0px;
+  border-radius:0px;
+  margin: 0px;
 }
 
 
