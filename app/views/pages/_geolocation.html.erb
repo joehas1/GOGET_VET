@@ -3,24 +3,30 @@
     <div class="wrapper-title wrapper-title-location">
       <p>WHERE ARE YOU?</p>
     </div>
-    <div class="location-choice">
+    <div class="location-choice row">
+      <div class="col-12">
         <label for="location" id="location">ALLOW LOCATION</label>
         <input type="hidden" name="address" id="address">
         <input type="hidden" name="Longitude" id="Longitude">
         <input type="hidden" name="Latitude" id="Latitude">
+      </div>
         <p>------------------------ or ------------------------</p>
+      <div class="col-12">
         <div class="location-address">
           <label for="location2">ENTER YOUR ADDRES</label>
           <input id="location2" type="checkbox"></input>
         </div>
+      </div>
       <%= javascript_pack_tag 'geolocation' %>
     </div>
   </div>
-  <div class="buttons-form buttons-form-location">
-    <div class="bottom-left buttons-actions">
-      <button type="button" class="btn-pink-small">GO BACK</button>
+  <div class="buttons-form row">
+    <div class="bottom-left buttons-actions   display:
+col-6">
+      <button type="button" id= "geolocation-previous" class="btn-pink-small">GO BACK</button>
     </div>
-    <div class="bottom-right buttons-actions">
+    <div class="bottom-right buttons-actions   display:
+col-6">
       <button type="button" id="geolocation-next" class="btn-pink-small">NEXT</button>
     </div>
   </div>

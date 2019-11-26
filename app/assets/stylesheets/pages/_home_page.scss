@@ -141,9 +141,19 @@ i{
 #appointment-modal {
   display: none;
   background-color: $light-gray;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.input-list {
+
+}
+.language-input {
+  position: relative;
+  input {
+    position: absolute;
+  }
 }
