@@ -86,15 +86,21 @@
   color: white;
 }
 
+.wrapper-title-location{
+  padding: 10px;
+}
+
 .location-choice{
-  display:flex;
-  margin-left: 20px;
-  margin-bottom: 66px;
+  padding: 0 10px;
+}
+
+.location-choice input {
+  border-bottom: 0px solid transparent !important;
 }
 
 .location-choice label {
-  width: 100%;
-  margin-left: 15px;
+  width: 85%;
+  line-height: 20px;
 }
 
 .location-choice p {
