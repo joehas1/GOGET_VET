@@ -14,17 +14,25 @@ function getLocation() {
 
 
 function showPosition(position) {
+  console.log(position)
   latitude.value = position.coords.latitude
   longitude.value = position.coords.longitude
-  fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${position.coords.longitude},${position.coords.latitude}.json?access_token=pk.eyJ1Ijoib2Rwb2xvIiwiYSI6ImNqdGg2Znd1YzBibmc0M3AyMGpsY3hpZjYifQ.U0j8X1KdXoWdUzdeONfeIQ`)
+  console.log(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${position.coords.latitude},${position.coords.longitude}&key=AIzaSyCL-rBZ8NzweKuMmHu9b9Dei2nh5EUxNvc`)
+  fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${position.coords.latitude},${position.coords.longitude}&key=AIzaSyCL-rBZ8NzweKuMmHu9b9Dei2nh5EUxNvc`)
   .then(res => res.json())
   .then(json => {
-    const place = json.features[0].place_name
+    //const place = json.features[0].place_name
     console.log(json)
-    x.innerHTML = place;
-    address.value = place;
+    //x.innerHTML = place;
+    //address.value = place;
   })
 }
 
 
 x.addEventListener('click', getLocation)
+
+
+
+//https://maps.googleapis.com/maps/api/geocode/json?latlng=${position.coords.latitude},${position.coords.longitude}&key=AIzaSyCL-rBZ8NzweKuMmHu9b9Dei2nh5EUxNvc
+
+//https://api.mapbox.com/geocoding/v5/mapbox.places/${position.coords.longitude},${position.coords.latitude}.json?access_token=pk.eyJ1Ijoib2Rwb2xvIiwiYSI6ImNqdGg2Znd1YzBibmc0M3AyMGpsY3hpZjYifQ.U0j8X1KdXoWdUzdeONfeIQ
