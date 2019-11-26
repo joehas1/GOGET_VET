@@ -1,6 +1,7 @@
 
 class VetsController < ApplicationController
   def index
+
     #@vets =Vet.all
     language_array = []
     vets = Vet.near(params[:address].to_s, 200)

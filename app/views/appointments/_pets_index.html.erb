@@ -3,21 +3,23 @@
     <h2>Which one of your pet needs an appointment?</h2>
   </div>
 
-  <div class="cards">
-    <div class="dog-card">
-      <img src='https://images.unsplash.com/photo-1499789853431-fcbf274f57b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80' class="avatar-large" />
-      <div class="dog-card-content">
-        <p><small>FIGARO<small></p>
-        <p>Type ----- Dog</p>
-        <p>Breed --- Labrador</p>
-      </div>
-      <div class="dog-card-actions">
-        <a href="#"><i class="fas fa-pencil-alt"></i></a>
-        <a href="#"><i class="far fa-trash-alt"></i></a>
-      </div>
-    </div>
 
-    <div class="dog-card">
+  <% @pets.each do |pet| %>
+    <div class="cards">
+      <div class="dog-card">
+        <img src= '<%=pet.picture%>' class="avatar-large" />
+        <div class="dog-card-content">
+          <p><small><%= pet.name %><small></p>
+          <p><%= pet.pets_type %></p>
+        </div>
+        <div class="dog-card-actions">
+          <a href="#"><i class="fas fa-pencil-alt"></i></a>
+          <a href="#"><i class="far fa-trash-alt"></i></a>
+        </div>
+      </div>
+  <%end%>
+
+    <!-- <div class="dog-card">
       <img src='https://images.unsplash.com/photo-1472491235688-bdc81a63246e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80' class="avatar-large" />
       <div class="dog-card-content">
         <p><small>BERLIOZ<small></p>
@@ -43,7 +45,7 @@
       </div>
     </div>
   </div>
-
+ -->
   <div class= buttons-display>
     <button class="btn-cancel"><%=link_to "CANCEL", root_path %></button>
     <button class="btn-register">REGISTER A NEW DOG</button>
