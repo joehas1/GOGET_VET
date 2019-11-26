@@ -10,8 +10,8 @@ User.destroy_all
 
 appointments = [
   {
-    description: "",
-    address: "",
+    client_id: 1,
+    vet_id: 3,
   }
 ]
 
