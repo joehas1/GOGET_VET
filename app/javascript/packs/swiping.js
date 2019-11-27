@@ -39,7 +39,7 @@ import * as Swing from 'swing';
             card.on('throwoutright', (event) => {
                 console.log('Card has been thrown RIGHT.');
                 let vet = document.getElementById("vet")
-                window.location.replace(`/appointments/new?vet_id=${vet}`);
+                window.location.replace(`/appointments/new?vet_id=${vet.value}`);
             });
             card.on('throwoutleft', (event) => {
                 console.log('Card has been thrown LEFT.');
