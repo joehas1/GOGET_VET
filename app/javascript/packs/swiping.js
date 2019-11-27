@@ -47,7 +47,7 @@ import * as Swing from 'swing';
             });
             card.on('throwoutup', (event) => {
                 console.log('Card has been thrown UP.');
-                window.location.replace('/appointments/new?vet_id=1');
+                window.location.replace(`/appointments/new?vet_id=${vet.value}`);
             });
             card.on('dragmove', (event) => {
                 console.log(event.throwDirection);
