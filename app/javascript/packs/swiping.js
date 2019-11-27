@@ -38,7 +38,8 @@ import * as Swing from 'swing';
             });
             card.on('throwoutright', (event) => {
                 console.log('Card has been thrown RIGHT.');
-                window.location.replace('/appointments/new');
+                let vet = document.getElementById("vet")
+                window.location.replace(`/appointments/new?vet_id=${vet.value}`);
             });
             card.on('throwoutleft', (event) => {
                 console.log('Card has been thrown LEFT.');
@@ -46,7 +47,7 @@ import * as Swing from 'swing';
             });
             card.on('throwoutup', (event) => {
                 console.log('Card has been thrown UP.');
-                window.location.replace('/appointments/new');
+                window.location.replace('/appointments/new?vet_id=1');
             });
             card.on('dragmove', (event) => {
                 console.log(event.throwDirection);
