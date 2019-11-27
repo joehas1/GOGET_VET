@@ -1,8 +1,8 @@
 
 class VetsController < ApplicationController
   def index
-    current_client = Client.find_by(user_id: current_user.id)
-    Client.update(current_client.id, :latitude => params[:latitude], :longitude => params[:longitude])
+    #current_client = Client.find_by(user_id: current_user.id)
+    #Client.update(current_client.id, :latitude => params[:latitude], :longitude => params[:longitude])
     #Person.update(15, :user_name => 'Samuel', :group => 'expert')
 
     #@vets =Vet.all

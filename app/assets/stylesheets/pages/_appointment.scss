@@ -12,16 +12,18 @@
   right: 0;
   height: 18.75rem;
   background-image: asset-url('header-semicircle.png');
-  background-repeat: no-repeat;
+  background-repeat: round !important;
   background-size: contain;
   text-align: center;
 
 }
+.nav-text-appointment{
+  width:100%;
+}
 .nav-text-appointment h2{
   color:white !important;
   font-size: 1.5625rem !important;
-  margin-top:25%;
-  // margin-left: %;
+  justify-content:center !important;
 }
 .nav-links{
   margin-left: 0.9375rem;
@@ -29,9 +31,8 @@
 }
 .runner{
   font-size:3.125rem;
-  margin-left:38%;
-  margin-right: 45%;
-  margin-top: 15%;
+  justify-content:center;
+  margin-top: 10%;
 }
 
 #navbarDropdown{
@@ -46,13 +47,12 @@
   position: relative;
 }
 .map{
-  position: relative;
-  width: 20.25rem;
+  width: 90% !important;
+  margin-left:5% !important;
   height: 19.625rem;
-  left: 1.75rem;
-  top: 19.1875rem;
-
   box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
+  left:0 !important;
+  top: 20.1875rem !important;
 }
 .map-image{
   width:100%;
@@ -83,7 +83,7 @@
 }
 .need-help-btn{
   right:1.5625rem !important;
-  bottom:0.625rem !important;
+  bottom:-2% !important;
   position: absolute !important;
   box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
   float:right !important;
