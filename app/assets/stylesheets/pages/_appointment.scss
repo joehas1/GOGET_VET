@@ -10,7 +10,7 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 300px;
+  height: 18.75rem;
   background-image: asset-url('header-semicircle.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -19,24 +19,24 @@
 }
 .nav-text-appointment h2{
   color:white !important;
-  font-size: 25px !important;
+  font-size: 1.5625rem !important;
   margin-top:25%;
   // margin-left: %;
 }
 .nav-links{
-  margin-left: 15px;
-  margin-top: 15px;
+  margin-left: 0.9375rem;
+  margin-top: 0.9375rem;
 }
 .runner{
-  font-size:50px;
+  font-size:3.125rem;
   margin-left:38%;
   margin-right: 45%;
   margin-top: 15%;
 }
 
 #navbarDropdown{
-  padding-left: 5px;
-  padding-top: 5px;
+  padding-left: 0.3125rem;
+  padding-top: 0.3125rem;
 }
 
 .home-banner {
@@ -47,12 +47,12 @@
 }
 .map{
   position: relative;
-  width: 324px;
-  height: 314px;
-  left: 28px;
-  top: 307px;
+  width: 20.25rem;
+  height: 19.625rem;
+  left: 1.75rem;
+  top: 19.1875rem;
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
 }
 .map-image{
   width:100%;
@@ -61,31 +61,31 @@
 }
 .avatar-for-map {
   position:absolute;
-  bottom:10px;
-  right:10px;
+  bottom:0.625rem;
+  right:0.625rem;
 
-  width: 50px !important;
-  height: 50px !important;
-  border-radius: 50px !important;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 3.125rem !important;
+  height: 3.125rem !important;
+  border-radius: 3.125rem !important;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 }
 .phone{
   position:absolute;
-  left:10px;
-  bottom:10px;
+  left:0.625rem;
+  bottom:0.625rem;
   color:black;
 }
 .chat{
   position:absolute;
-  left:50px;
-  bottom:10px;
+  left:3.125rem;
+  bottom:0.625rem;
   color:black;
 }
 .need-help-btn{
-  right:25px !important;
-  bottom:10px !important;
+  right:1.5625rem !important;
+  bottom:0.625rem !important;
   position: absolute !important;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
   float:right !important;
   color:black !important;
   background:  #FAF7F5 !important;
