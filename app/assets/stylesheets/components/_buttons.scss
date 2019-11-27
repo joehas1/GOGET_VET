@@ -1,17 +1,17 @@
 .btn-pink{
   position: absolute;
   background: $pink;
-  border-radius: 25px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 1.5625rem;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
   color:$light-gray;
   text-align:center;
   font-family: Montserrat;
   font-style: normal;
-  font-size: 15px;
-  line-height: 18px;
-  margin-top:80px;
-  width: 135px;
-  height: 90px;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  margin-top:5rem;
+  width: 8.4375rem;
+  height: 5.625rem;
   border: none;
 }
 
@@ -21,27 +21,27 @@
 
 .btn-transparent {
   position: absolute;
-  height: 100px;
+  height: 6.25rem;
   text-align: center;
-  font-size: 12px;
+  font-size: 0.75rem;
   font: Montserrat;
   background-color: transparent;
   font-style: normal;
   font-weight: normal;
-  line-height: 15px;
+  line-height: 0.9375rem;
   -webkit-box-align: center;
   align-items: center;
   display: -webkit-box;
   display: flex;
   width: auto;
   height: auto;
-  padding: 13px;
+  padding: 0.8125rem;
   margin-left: 35%;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
   border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
   color: $light-gray;
-  border: solid 1px $light-gray;
+  border: solid 0.0625rem $light-gray;
 }
 
 .btn-transparent:hover {
@@ -50,22 +50,22 @@
 
 .btn-bottom {
   position: absolute;
-  height: 100px;
+  height: 6.25rem;
   text-align: center;
-  font-size: 12px;
+  font-size: 0.75rem;
   font:Montserrat;
   font-style: normal;
   font-weight: normal;
-  line-height:15px;
+  line-height:0.9375rem;
   align-items:center;
   display:flex;
   width:25%;
   height:auto;
-  padding:13px;
+  padding:0.8125rem;
   width:auto;
   background: $light-gray;
-  border: solid 1px $black;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border: solid 0.0625rem $black;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
 }
 
 .btn-bottom:hover {
@@ -75,16 +75,16 @@
 
 .btn-register{
   background: $pink;
-  border-radius: 25px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 1.5625rem;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
   color:$light-gray;
   text-align:center;
-  font-size: 12px;
-  padding: 13px 15px;
+  font-size: 0.75rem;
+  padding: 0.8125rem 0.9375rem;
   margin-left: 22%;
   position: fixed;
-  bottom: 40px;
-  right: 18px;
+  bottom: 2.5rem;
+  right: 1.125rem;
 }
 
 .btn-register:hover {
@@ -93,17 +93,17 @@
 
 .btn-cancel{
   text-align: center;
-  font-size: 12px;
+  font-size: 0.75rem;
   background-color: $light-gray;
   align-items:center;
   display:flex;
-  padding: 13px 15px;
+  padding: 0.8125rem 0.9375rem;
   border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
   margin-right: 70%;
   position: fixed;
-  bottom: 40px;
-  left: 18px;
+  bottom: 2.5rem;
+  left: 1.125rem;
 }
 
 .btn-cancel:hover {
@@ -114,17 +114,17 @@
 .btn-pink-small{
   position: absolute;
   background: #FB9F88;
-  border-radius: 25px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 1.5625rem;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
   color: $white;
   text-align: center;
   font-family: Montserrat;
   font-style: normal;
-  font-size: 12px;
-  line-height: 18px;
-  margin-top: 80px;
-  width: 147px;
-  height: 35px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  margin-top: 5rem;
+  width: 9.1875rem;
+  height: 2.1875rem;
   border: none;
 }
 
@@ -134,23 +134,23 @@
 
 .btn-bordered {
   background-color: transparent;
-  border-style: solid 1px $light-gray;
+  border-style: solid 0.0625rem $light-gray;
   color: $light-gray;
 }
 .buttons-form-type{
-  margin-top:90px;
+  margin-top:5.625rem;
 }
 .btn-transparent-skip {
     text-align: center;
-    font-size: 12px;
+    font-size: 0.75rem;
     font: Montserrat;
     background-color: transparent;
-    line-height: 15px;
+    line-height: 0.9375rem;
     display: -webkit-box;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     border: none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.6);
     color: #FAF7F5;
     float: right;
-    margin: 0px 20px 0px 0;
+    margin: 0rem 1.25rem 0rem 0rem;
 }

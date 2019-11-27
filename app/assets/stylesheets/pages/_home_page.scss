@@ -50,7 +50,7 @@ i{
   background-size: cover;
   background-position: center;
   width: 16.9375rem;
-  margin-top: -0.0625rem;
+  margin-top:-0.0625rem;
 }
 
 .home-right .btn-pink{
@@ -86,12 +86,14 @@ i{
   font-size: 0.75rem;
   font-family:Montserrat;
   font-weight:normal;
-  width:100vw;
+  color: black !important;
 }
 
 .buttons-bottom{
   display:flex;
   text-decoration: none;
+  padding: 2.5rem;
+  margin-right:0rem !important;
 }
 
 .buttons-actions{
@@ -141,9 +143,6 @@ i{
   bottom: 0;
 }
 
-.input-list {
-
-}
 .language-input {
   position: relative;
   input {
