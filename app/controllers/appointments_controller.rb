@@ -15,6 +15,7 @@ class AppointmentsController < ApplicationController
   end
 
   def new
+    raise
     #@vet = Vet.find(params[:vet][:vet_id])
     @vet = Vet.first
     @appointment = Appointment.new
