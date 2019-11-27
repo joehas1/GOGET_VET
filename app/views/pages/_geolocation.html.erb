@@ -1,47 +1,33 @@
 <div id="geolocation-form" style="display: none;">
   <div class="animated slideInRight mt-4">
-    <div class="wrapper-title">
+    <div class="wrapper-title wrapper-title-location">
       <p>WHERE ARE YOU?</p>
     </div>
-    <div class="location-choice">
-        <label for="location" id="location">ALLOW LOCATION</label>
+    <div class="location-choice row">
+      <div class="col-12">
+        <label for="location" id="location">ALLOW LOCALISATION</label>
         <input type="hidden" name="address" id="address">
         <input type="hidden" name="Longitude" id="Longitude">
         <input type="hidden" name="Latitude" id="Latitude">
+      </div>
         <p>------------------------ or ------------------------</p>
+      <div class="col-12">
         <div class="location-address">
           <label for="location2">ENTER YOUR ADDRES</label>
           <input id="location2" type="checkbox"></input>
         </div>
+      </div>
       <%= javascript_pack_tag 'geolocation' %>
-    </div>p
-  </div>
-  <div class="buttons-form">
-    <div class="bottom-left buttons-actions">
-      <button type="button" class="btn-pink-small">GO BACK</button>
     </div>
-    <div class="bottom-right buttons-actions">
+  </div>
+  <div class="buttons-form row">
+    <div class="bottom-left buttons-actions   display:
+col-6">
+      <button type="button" id= "geolocation-previous" class="btn-pink-small">GO BACK</button>
+    </div>
+    <div class="bottom-right buttons-actions   display:
+col-6">
       <button type="button" id="geolocation-next" class="btn-pink-small">NEXT</button>
     </div>
   </div>
 </div>
-
-
-<!--// FORM LOCATION + DATE AND TIME
-
-
-<form action="/vets" method="get">
-  <label for="location">Location</label>
-  <input type="text" name="location" id="location" placeholder="Click to see current address"></input>
-  <input type="hidden" name="Longitude" id="Longitude">
-  <input type="hidden" name="Latitude" id="Latitude">
-  <label for="Date">Date of the appointment</label>
-  <input type="date" name="usr_date">
-  <label for="">Hour of the appointment</label>
-  <input type="time" name="usr_time">
-  <input type="submit" value="Submit">
-</form>
-
-<%= javascript_pack_tag 'geolocation' %>  //-->
-
-

@@ -21,8 +21,8 @@ function showPosition(position) {
   fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${position.coords.latitude},${position.coords.longitude}&key=AIzaSyCL-rBZ8NzweKuMmHu9b9Dei2nh5EUxNvc`)
   .then(res => res.json())
   .then(json => {
-    const place = json.results[0]["formatted_address"]
-    console.log(place)
+    const place = json.results[0].formatted_address
+    console.log(json)
     x.innerHTML = place;
     address.value = place;
   })

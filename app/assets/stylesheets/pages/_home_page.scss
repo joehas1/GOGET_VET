@@ -13,17 +13,29 @@ h3 {
   right: 0;
 }
 
-.nav{
+.nav-logo{
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  height: 300px;
-  background-image: asset-url('header-semicircle.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  text-align: center;
+  height: 100%;
+  background-image: url(logo-test.png), url(header-semicircle.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 275px, 378px;
+  text-align: inherit;
+  margin-top: 0px, 60px;
+  background-position: top center, top center;
 }
+
+//.nav-text img{
+//  background-image: asset-url('logo.png');
+//  height: 236px;
+//  padding-right: 43px;
+//  vertical-align: middle;
+//  border-style: none;
+//  width: 300px;
+//  padding-top: 68px;
+//}
 
 .nav-links{
   margin-left: 15px;
@@ -125,12 +137,26 @@ i{
   margin-top: 80px;
 }
 
+.buttons-form-location {
+  margin-top: 55px;
+}
+
 #appointment-modal {
   display: none;
   background-color: $light-gray;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.input-list {
+
+}
+.language-input {
+  position: relative;
+  input {
+    position: absolute;
+  }
 }
