@@ -21,30 +21,20 @@ h3 {
   height: 100%;
   background-image: url(logo-test.png), url(header-semicircle.png);
   background-repeat: no-repeat, no-repeat;
-  background-size: 275px, 378px;
+  background-size: 17.1875rem, 23.625rem;
   text-align: inherit;
-  margin-top: 0px, 60px;
+  margin-top: 0rem, 3.75rem;
   background-position: top center, top center;
 }
 
-//.nav-text img{
-//  background-image: asset-url('logo.png');
-//  height: 236px;
-//  padding-right: 43px;
-//  vertical-align: middle;
-//  border-style: none;
-//  width: 300px;
-//  padding-top: 68px;
-//}
-
 .nav-links{
-  margin-left: 15px;
-  margin-top: 15px;
+  margin-left: 0.9375rem;
+  margin-top: 0.9375rem;
 }
 
 i{
-  padding-left: 5px;
-  padding-top: 5px;
+  padding-left: 0.3125rem;
+  padding-top: 0.3125rem;
   color: $white;
 }
 
@@ -59,20 +49,20 @@ i{
   background-image: asset-url('cropped-dog.png');
   background-size: cover;
   background-position: center;
-  width: 271px;
-  margin-top: -1px;
+  width: 16.9375rem;
+  margin-top:-0.0625rem;
 }
 
 .home-right .btn-pink{
-  margin-top: 215px;
+  margin-top: 13.4375rem;
 }
 
 .home-left{
   background-image: asset-url('cropped.png');
   background-size: cover;
   background-position: center;
-  width: 271px;
-  margin-top: 136px;
+  width: 16.9375rem;
+  margin-top: 8.5rem;
 }
 
 .home-actions {
@@ -92,16 +82,18 @@ i{
 
 .about-text{
   text-align:justify !important;
-  padding: 40px !important;
-  font-size: 12px;
+  padding: 2.5rem !important;
+  font-size: 0.75rem;
   font-family:Montserrat;
   font-weight:normal;
-  width:100vw;
+  color: black !important;
 }
 
 .buttons-bottom{
   display:flex;
   text-decoration: none;
+  padding: 2.5rem;
+  margin-right:0rem !important;
 }
 
 .buttons-actions{
@@ -120,25 +112,25 @@ i{
 
 .buttons-form {
   display: flex;
-  margin-top: 68px;
+  margin-top: 4.25rem;
 }
 
 .buttons-form-type {
   display: flex;
-  margin-top: 140px;
+  margin-top: 8.75rem;
 }
 
 .buttons-form-time {
   display: flex;
-  margin-top: 78px;
+  margin-top: 4.875rem;
 }
 
 .buttons-form-symptom {
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
 .buttons-form-location {
-  margin-top: 55px;
+  margin-top: 3.4375rem;
 }
 
 #appointment-modal {
@@ -151,9 +143,6 @@ i{
   bottom: 0;
 }
 
-.input-list {
-
-}
 .language-input {
   position: relative;
   input {

@@ -8,60 +8,60 @@
  }
 
 .row-text {
-  padding: 67px 30px;
+  padding: 4.1875rem 1.875rem;
   color: $black;
   text-align: left;
 }
 
 .row-text h3{
   color: #000000;
-  margin: 5px;
-  margin-top: 0px;
-  font-size: 21px;
-  line-height: 28px;
+  margin: 0.3125rem;
+  margin-top: 0rem;
+  font-size: 1.3125rem;
+  line-height: 1.75rem;
  }
 
 .row-blue {
-  width: 375px;
-  height: 386px;
+  width: 23.4375rem;
+  height: 24.125rem;
   background-color: $dark-blue;
  }
 
 .wrapper-title {
   text-align: left;
-  margin-left: 26px;
+  margin-left: 1.625rem;
  }
 
  .wrapper-title p {
   color: $white;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   text-align: left;
  }
 
  .wrapper-choice {
-   padding: 10px;
+   padding: 0.625rem;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
  }
 
  .wrapper-title-type{
-  padding-top: 10px;
+  padding-top: 0.625rem;
  }
 
 .type-choice {
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .type-choice label{
-  padding: 30px 30px 30px 30px;
+  padding: 1.875rem 1.875rem 1.875rem 1.875rem;
   white-space: pre-line;
-  line-height: 17px;
-  margin-top: 70px;
+  line-height: 1.0625rem;
+  margin-top: 4.375rem;
 }
 
 .wrapper-title-time{
-  padding-top: 10px;
+  padding-top: 0.625rem;
 }
 
 .time-now {
@@ -75,8 +75,8 @@
 p {
   color: #FAF7F5;
   text-align: center;
-  font-size: 13px;
-  margin: 20px 20px;
+  font-size: 0.8125rem;
+  margin: 1.25rem 1.25rem;
 }
 
 .time-choose {
@@ -86,83 +86,83 @@ p {
 .time-choose label {
   width: 30vw;
   background-color: transparent;
-  border: solid 1px white;
+  border: solid 0.0625rem white;
   color: white;
 }
 
 .wrapper-title-location{
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 .location-choice{
   display:flex;
-  margin-bottom: 66px;
+  margin-bottom: 4.125rem;
 }
 
 .location-choice label {
   width: 90%;
-  line-height: 20px;
+  line-height: 1.25rem;
 }
 
 .location-choice p {
   color: #FAF7F5;
   text-align: center;
-  font-size: 13px;
-  margin: 20px 20px;
-  padding-left: 50px;
+  font-size: 0.8125rem;
+  margin: 1.25rem 1.25rem;
+  padding-left: 3.125rem;
 }
 
 .location-address label{
   background-color: transparent;
-  border: solid 1px white;
+  border: solid 0.0625rem white;
   color: white;
 }
 
 .symptom-input{
-  height: 350px;
+  height: 21.875rem;
 }
 
 .symptom-input input{
   width: -webkit-fill-available;
-  height: 225px;
-  border: solid 1px white;
+  height: 14.0625rem;
+  border: solid 0.0625rem white;
   background-color: transparent;
   color: white;
   margin-top: 21%;
   text-align: left;
-  line-height: 17px;
-  border-bottom: 0px solid transparent;
+  line-height: 1.0625rem;
+  border-bottom: 0rem solid transparent;
 }
 
 #symptom{
-  border-radius: 25px;
-  height: 250px;
-  width: 300px;
-  padding: 10px;
-  margin: 43px 0 0 24px;
-  border: solid 1px white;
+  border-radius: 1.5625rem;
+  height: 15.625rem;
+  width: 18.75rem;
+  padding: 0.625rem;
+  margin: 2.6875rem 0 0 1.5rem;
+  border: solid 1rem white;
   color: white;
   text-align: left;
-  line-height: 17px;
+  line-height: 1.0625rem;
 }
 
 input {
   position: absolute !important;
-  left: -9999px;
+  left: -624.9375rem;
 }
 
 label {
-  width: 130px;
-  margin: 20px 0;
-  padding: 20px 30px 20px 30px;
+  width: 8.125rem;
+  margin: 1.25rem 0;
+  padding: 1.25rem 1.875rem 1.25rem 1.875rem;
   color: #000000;
   background-color: #FAF7F5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 25px;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.5625rem;
 }
 
 label:hover, input:focus + label {
-  box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, .6);
 }
 
 input:checked + label {
@@ -184,7 +184,7 @@ input:checked + label {
   top: 0 !important;
 }
 .timepicker-digital-display{
-  padding:15px !important;
+  padding:0.9375rem !important;
 }
 .timepicker-text-container{
   font-size:2rem !important;
