@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 300px;
+  height: 18.75rem;
   background-image: asset-url('header-semicircle.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -15,27 +15,27 @@
 }
 .nav-text-appointment-confirm h2{
   color:white !important;
-  font-size: 25px !important;
+  font-size: 1.5625rem !important;
   position:absolute;
-  top:65px;
+  top:4.0625rem;
   left:0%;
   // margin-top:%;
   // margin-left: %;
 }
 .nav-links{
-  margin-left: 15px;
-  margin-top: 15px;
+  margin-left: 0.9375rem;
+  margin-top: 0.9375rem;
 }
 .done-all{
-  font-size:60px;
+  font-size:3.75rem;
   position:absolute;
   top:50%;
   right:40%;
 }
 
 #navbarDropdown{
-  padding-left: 5px;
-  padding-top: 5px;
+  padding-left:0.3125rem;
+  padding-top: 0.3125rem;
 }
 
 .home-banner {
@@ -46,12 +46,12 @@
 }
 .map{
   position: relative;
-  width: 324px;
-  height: 314px;
-  left: 28px;
-  top: 307px;
+  width: 20.25rem;
+  height: 19.625rem;
+  left: 1.75rem;
+  top: 19.1875rem;
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
 }
 
 .appointment-container{
@@ -61,11 +61,11 @@
 }
 
 .homepage-btn{
-  left:110px !important;
-  top:25px !important;
+  left:6.875rem !important;
+  top:1.5625rem !important;
   position: relative !important;
   background: rgba(38, 79, 115, 0.95);
-  width: 100px !important;
+  width: 6.25rem !important;
   color:white !important;
 }
 
@@ -74,42 +74,42 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin: 100px 35px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  margin: 6.25rem 35px;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
   position:relative;
-  top:215px;
+  top:13.4375rem;
 
 }
 
 .doctor-confirm-profile-card h3{
   color:black !important;
-  padding-top: 30px;
-  padding-bottom:10px;
+  padding-top: 1.875rem;
+  padding-bottom:0.625rem;
   margin-inline-start: 0em !important;
 }
 
 .doctor-picture {
-  width: 85px;
-  height: 85px;
-  border-radius: 85px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-top:15px;
+  width: 5.3125rem;
+  height: 5.3125rem;
+  border-radius: 5.3125rem;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  margin-top:0.9375rem;
 }
 
 
 .yes-i-am{
   width: 140px;
-  height:35px;
-  border-radius: 85px;
+  height:2.1875rem;
+  border-radius: 5.3125rem;
   background-color: $pink;
   color:white !important;
   background: rgba(255, 115, 80, 0.6);
 
 }
 .no-im-not{
-  width: 140px;
-  height:35px;
-  border-radius: 85px;
+  width: 8.75rem;
+  height:2.1875rem;
+  border-radius: 5.3125rem;
   background-color: $pink;
   color:white !important;
   background: rgba(255, 115, 80, 0.6);
@@ -117,28 +117,28 @@
 
 }
 .profile-card-info{
-  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow:0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
   background: #FAF7F5;
-  border-radius: 2px;
-  height:215px;
-  margin: 25px;
-  padding: 10px;
+  border-radius: 0.125rem;
+  height:13.4375rem;
+  margin: 1.5625rem;
+  padding: 0.625rem;
   width:85%;
 }
 .more-info-btn{
-  left: 0px;
+  left: 0rem;
   background: #FAF7F5;
   color:black !important;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
 }
 .profile-card-info h2{
-  padding: 10px !important;
+  padding: 0.625rem !important;
 }
 .confirm-buttons{
   display:flex;
   justify-content:space-around;
   position: relative;
-  top: 160px;
+  top: 10rem;
 }
 
 
