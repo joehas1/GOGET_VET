@@ -2,29 +2,29 @@
   display: flex;
   align-items: center;
   background: $dark-blue;
-  padding: 8px 16px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-  height: 100px;
-  margin: 0px 15px 42px 15px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.25rem;
+  height: 6.25rem;
+  margin: 0rem 0.9375rem 2.625rem 0.9375rem;
 }
 
 .dog-card .dog-card-content {
   flex-grow: 1;
-  padding: 0 24px;
+  padding: 0rem 1.5rem;
 }
 
 .dog-card p {
   margin: 0;
   line-height: 2;
   color: $white;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 100;
 }
 
 .dog-card small {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 .dog-card .dog-card-actions {
   display: grid;
@@ -32,8 +32,8 @@
 
 .dog-card .dog-card-actions a {
   opacity: 0.7;
-  margin-left: 16px;
-  font-size: 14px;
+  margin-left: 1rem;
+  font-size: 0.875rem;
 }
 
 .dog-card .dog-card-actions a:hover {
@@ -41,5 +41,5 @@
 }
 
 .dog-card .dog-card-actions i {
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
