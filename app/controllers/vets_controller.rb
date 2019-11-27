@@ -1,11 +1,14 @@
 
 class VetsController < ApplicationController
   def index
-    #current_client = Client.find_by(user_id: current_user.id)
-    #Client.update(current_client.id, :latitude => params[:latitude], :longitude => params[:longitude])
+
+    current_client = Client.find_by(user_id: current_user.id)
+    current_client.update(latitude: params[:Latitude].to_s, longitude: params[:Longitude].to_s)
+
     #Person.update(15, :user_name => 'Samuel', :group => 'expert')
 
     #@vets =Vet.all
+
     language_array = []
     vets = Vet.near("Campeche 233, Hipódromo, Cuauhtémoc, 06100 Ciudad de México, CDMX, Mexico", 200)
 
