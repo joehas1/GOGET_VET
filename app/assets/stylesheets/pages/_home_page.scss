@@ -13,31 +13,18 @@ h3 {
   right: 0;
 }
 
-.nav{
+.nav-logo{
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  height: 18.75rem;
-  background-image: asset-url('header-semicircle.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  text-align: center;
-}
-.nav-text{
-  position:absolute;
-  bottom:26%;
-  left:17%;
-}
-
-.nav-text img{
-  background-image: asset-url('logo.png');
-  height: 14.75rem;
-  padding-right: 2.6875rem;
-  vertical-align: middle;
-  border-style: none;
-  width: 18.75rem;
-  padding-top: 4.25rem;
+  height: 100%;
+  background-image: url(logo-test.png), url(header-semicircle.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 275px, 378px;
+  text-align: inherit;
+  margin-top: 0px, 60px;
+  background-position: top center, top center;
 }
 
 .nav-links{
