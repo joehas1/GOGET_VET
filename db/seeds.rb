@@ -3,6 +3,7 @@ puts 'Deleting previous data'
 # Appointment.destroy_all
 # FavoritedVet.destroy_all
 Pet.destroy_all
+Appointment.destroy_all
 Vet.destroy_all
 Client.destroy_all
 User.destroy_all
