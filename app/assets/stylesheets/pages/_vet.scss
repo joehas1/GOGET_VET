@@ -6,22 +6,22 @@
 
 }
 .homepage-btn{
-  left:110px !important;
-  top:25px !important;
+  left:6.875rem !important;
+  top:1.5625rem !important;
   position: relative !important;
   background: rgba(38, 79, 115, 0.95);
   width: auto !important;
   color:white !important;
-  margin-bottom:0px !important;
+  margin-bottom:0rem !important;
 }
 .refresh-btn{
-  right:110px !important;
+  right:6.875rem !important;
   bottom:2% !important;
   position: relative !important;
   background: rgba(38, 79, 115, 0.95);
   width: auto !important;
   color:white !important;
-  margin-bottom:0px !important;
+  margin-bottom:0rem !important;
 
 }
 
@@ -30,59 +30,66 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 0px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 0rem;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
 
 }
 
 .doctor-profile-card h3{
   color:black !important;
-  padding-bottom:10px;
-  margin-top: 10%;
-  margin-bottom: 5%;
+  padding-bottom:0.625rem;
+  margin-top: 5%;
+  margin-bottom: 0%;
   margin-inline-start: 0em !important;
+}
+.doctor-profile-card p{
+  color:black !important;
+  text-align: left !important;
+  font-size: 0.75rem !important;
+  margin:0rem !important;
+
 }
 
 .doctor-picture {
-  width: 85px;
-  height: 85px;
+  width: 5.3125rem;
+  height: 5.3125rem;
   margin-top: 0;
-  border-radius: 85px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5.3125rem;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 }
 
 
 .profile-card-info{
-  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow:0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
   background: #FAF7F5;
-  border-radius: 2px;
-  height:215px;
-  margin: 25px;
-  padding: 10px;
+  border-radius: 0.125rem;
+  height:35vh;
+  margin: 1.5625rem;
+  padding:0.625rem;
   width:85%;
 }
 .more-info-btn{
-  left: 0px;
+  left: 0rem;
   background: #FAF7F5;
   color:black !important;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
 }
 .profile-card-info h2{
-  padding: 10px !important;
+  padding: 0.625rem !important;
 }
 
 
 .arrows{
   display: flex;
-  margin-top: 75%;
+  margin-top: 64%;
   justify-content: space-between;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 .arrowleft{
-  font-size:40px;
+  font-size:2.5rem;
 }
 .arrowright{
-  font-size:40px;
+  font-size:2.5rem;
 }
 
 
@@ -97,7 +104,7 @@ button {
 }
 
 input {
-    width: 50px;
+    width: 3.125rem;
 }
 
 #viewport {
@@ -115,25 +122,25 @@ input {
     height: 85vh;
     max-height: 100vh;
     background: #ED5D52;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     position: relative;
 }
 
 #viewport li {
     width: 100%;
     height: 100%;
-    list-style: none; background: $dark-blue; border-radius: 5px; position: absolute; top: 0; left: 0; box-shadow: 0 0 2px rgba(0,0,0,.2), 1px 1px 1px rgba(0,0,0,.2); line-height: 300px; border: 10px solid #ECECEC; box-sizing: border-box; cursor: default;
-    padding-top:30%;
+    list-style: none; background: $dark-blue; border-radius: 0.3125rem; position: absolute; top: 0; left: 0; box-shadow: 0 0 0.125rem rgba(0,0,0,.2), 0.0625rem 0.0625rem 0.0625rem rgba(0,0,0,.2); line-height: 18.75rem; border: 0.625rem solid #ECECEC; box-sizing: border-box; cursor: default;
+    padding-top:13%;
     padding-left:5%;
     padding-right:5%;
 }
 
 
 #viewport li.in-deck:nth-child(3) {
-    top: 2px; transform: translate(2px, 2px) rotate(0.4deg);
+    top: 0.125rem; transform: translate(0.125rem, 0.125rem) rotate(0.4deg);
 }
 
 #viewport li.in-deck:nth-child(2) {
-    top: 4px; transform: translate(-4px, -2px) rotate(-1deg);
+    top:0.25rem; transform: translate(-0.25rem, -0.125rem) rotate(-1deg);
 }
 

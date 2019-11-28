@@ -23,6 +23,8 @@ h3 {
   background-repeat: no-repeat, no-repeat;
   background-size: 16.5625rem, 100%;
   text-align: inherit;
+  margin-top: 0rem, 3.75rem;
+
   background-position: top center, top center;
   z-index: 1;
 }
@@ -38,7 +40,7 @@ h3 {
 }
 
 i{
-  padding-left:0.3125rem;
+  padding-left: 0.3125rem;
   padding-top: 0.3125rem;
   color: $white;
 }

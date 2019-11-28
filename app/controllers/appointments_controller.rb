@@ -15,20 +15,23 @@ class AppointmentsController < ApplicationController
   end
 
   def new
-    #@vet = Vet.find(params[:vet][:vet_id])
-    @vet = Vet.first
+
+    @vet = Vet.find(params[:vet_id])
+    current_client = Client.find_by(user_id: current_user.id)
+    @pets = Pet.where(client_id: current_client)
+    #@vet = Vet.first
     @appointment = Appointment.new
   end
 
   def create
+
     @vet = Vet.find(params[:vet_id])
-    @appointment = Appointment.new(appointment_params)
-    # authorize @appointment
-    @appointment.date_time = "2019-11-#{params[:appointment]['check_out_date_time(3i)']}"
-    @appointment.client = current_user
+    @appointment = Appointment.new()
+    #authorize @appointment
+    @appointment.client = Client.find_by(user_id: current_user.id)
     @appointment.vet = @vet
     @appointment.save!
-    redirect_to appointments_path(@appointment)
+    redirect_to appointment_path(@appointment)
   end
 
   def destroy

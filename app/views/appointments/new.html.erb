@@ -39,7 +39,11 @@
 </div>
 
 <div class="pet-container">
-  <%= render "pets_index" %>
+  <form action="/appointments" method="POST">
+    <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+    <input type="hidden" name="vet_id" id="address" value="<%= @vet.id %>">
+    <%= render "pets_index" %>
+  </form>
 </div>
 
 

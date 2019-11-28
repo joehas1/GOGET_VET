@@ -33,20 +33,20 @@ import * as Swing from 'swing';
             const card = stack.createCard(li);
 
             // Add event listener for when a card is thrown out of the stack.
-            card.on('throwout', (event) => {
-                event.target.remove()
-            });
+            // card.on('throwout', (event) => {
+            //     event.target.remove()
+            // });
             card.on('throwoutright', (event) => {
-                console.log('Card has been thrown RIGHT.');
-                window.location.replace('/appointments/new');
+                console.log('Card has been thrown RIGHT.', li.dataset.vetId);
+                window.location.replace(`/appointments/new?vet_id=${li.dataset.vetId}`);
             });
             card.on('throwoutleft', (event) => {
-                console.log('Card has been thrown LEFT.');
+                console.log(li.dataset.vetId);
                 card.destroy();
             });
             card.on('throwoutup', (event) => {
                 console.log('Card has been thrown UP.');
-                window.location.replace('/appointments/new');
+                window.location.replace(`/appointments/new?vet_id=${li.dataset.vetId}`);
             });
             card.on('dragmove', (event) => {
                 console.log(event.throwDirection);
