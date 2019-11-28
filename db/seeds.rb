@@ -79,6 +79,20 @@ users =[
     first_name: "Marcus",
     last_name: "Delablo",
     picture: "https://images.unsplash.com/photo-1552072805-2a9039d00e57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+  },
+  {
+    email: "user6@gmail.com",
+    password: "123456",
+    first_name: "Clemence",
+    last_name: "Delavera",
+    picture: "https://images.unsplash.com/photo-1527613426441-4da17471b66d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1635&q=80"
+  },
+  {
+    email: "user7@gmail.com",
+    password: "123456",
+    first_name: "Joséphine",
+    last_name: "Galindo",
+    picture: "https://images.unsplash.com/photo-1536064479547-7ee40b74b807?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
   }
 ]
 
@@ -93,33 +107,46 @@ vets = [
   {
     address: "Campeche 101, Roma Sur, Cuauhtémoc, 06760 Ciudad de México, CDMX",
     availability: "",
-    rate: "2",
-    languages: "french english spanish"
+    rate: "1200",
+    languages: "french english"
   },
   {
     address: "Av. José Martí 219, Escandón I Secc, Miguel Hidalgo, 11800 Ciudad de México, CDMX",
     availability: "",
-    rate: "3",
+    rate: "1300",
     languages: "french english spanish"
   },
   {
     address: "Aguascalientes 114-108, Roma Sur, Cuauhtémoc, 06760 Ciudad de México, CDMX",
     availability: "",
-    rate: "4",
-    languages: "french english spanish"
+    rate: "1900",
+    languages: "french english"
   },
   {
     address: "Coahuila 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
     availability: "",
-    rate: "5",
+    rate: "1700",
     languages: "french english spanish"
   },
   {
     address: "Culiacan 48, Hipódromo, Cuauhtémoc, 06100 Ciudad de México, CDMX",
     availability: "",
-    rate: "2",
-    languages: "french english spanish"
-  }]
+    rate: "1800",
+    languages: "english"
+  },
+  {
+    address: "Praga 31, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+    availability: "",
+    rate: "1900",
+    languages: "english"
+  },
+  {
+    address: "Puebla 364, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    availability: "",
+    rate: "1700",
+    languages: "english spanish"
+  }
+]
 
 puts 'Creating users'
 
@@ -147,7 +174,7 @@ pets.each do |pet|
 end
 
 puts 'Creating vets'
-db_users = User.last(5)
+db_users = User.last(7)
 
 vets.each_with_index do |vet, index|
   v = Vet.new(vet)
