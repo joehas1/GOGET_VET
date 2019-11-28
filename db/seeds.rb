@@ -11,22 +11,29 @@ User.destroy_all
 
 pets = [
   {
-    pets_type: "Dog - Labrador",
-    name: "Figaro",
+    pets_type: "Dog - Labradoodle",
+    name: "Roux",
     history: "All vaccines cleared",
-    picture: "https://images.unsplash.com/photo-1499789853431-fcbf274f57b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+    picture: "https://images.unsplash.com/photo-1515722467270-dfefadd22f6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
   },
   {
-    pets_type: "Cat - Siamois",
-    name: "Berlioz",
-    history: "Nothing to declare",
-    picture: "https://images.unsplash.com/photo-1472491235688-bdc81a63246e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+    pets_type: "Mavis - Labradoodle",
+    name: "Mavis",
+    history: "All vaccines cleared",
+    picture: "https://cdn.vox-cdn.com/thumbor/bM8Nm5pdNWHzXzbNPatkKlQlml0=/0x0:5616x3744/1200x800/filters:focal(2359x1423:3257x2321)/cdn.vox-cdn.com/uploads/chorus_image/image/65338389/AdobeStock_113544325.0.jpeg",
   },
   {
-    pets_type: "pig - Mulefoot",
+    pets_type: "Pig - Mulefoot",
     name: "Muddy the 1st",
-    history: "All vaccines cleared",
+    history: "Nothing to declare",
     picture: "https://images.unsplash.com/photo-1567201080580-bfcc97dae346?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80",
+  },
+  {
+    pets_type: "Dog - Pug",
+    name: "Inari",
+    history: "All vaccines cleared",
+    picture:"https://imgc.allpostersimages.com/img/print/u-g-Q106AHH0.jpg?w=550&h=550&p=0"
+
   }
 ]
 
