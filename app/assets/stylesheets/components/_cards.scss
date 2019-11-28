@@ -28,7 +28,7 @@
   font-size: 0.9375rem;
 }
 
-.cards label:hover, input:focus + label {
+label:hover, input:focus + label {
   background-color: $pink;
 }
 
