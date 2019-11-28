@@ -20,7 +20,7 @@
  }
 
 .row-text {
-  padding: 4.1875rem 1.875rem;
+  padding: 3.1875rem 1.875rem;
   color: $black;
   text-align: left;
 }
@@ -120,7 +120,7 @@ p {
   text-align: center;
   font-size: 0.8125rem;
   margin: 1.25rem 1.25rem;
-  padding-left: 3.125rem;
+  width:100%;
 }
 
 .location-address label{
@@ -150,8 +150,9 @@ p {
   height: 15.625rem;
   width: 18.75rem;
   padding: 0.625rem;
-  margin: 2.6875rem 0 0 1.5rem;
-  border: solid 1rem white;
+  margin-top: 2.6875rem;
+  margin-left:10%;
+  border: solid 0.625rem white !important;
   color: white;
   text-align: left;
   line-height: 1.0625rem;
@@ -163,7 +164,7 @@ input {
 }
 
 label {
-  width: 8.125rem;
+  width: 9.125rem;
   margin: 1.25rem 0;
   padding: 1.25rem 1.875rem 1.25rem 1.875rem;
   color: #000000;
@@ -228,12 +229,11 @@ input:checked + label {
 .btn-flat{
   color:$pink;
 }
+
 .timepicker-display-column{
   bottom:0rem !important;
 }
-.datetime-input {
-  // position: relative;
-}
+
 #time3 {
   text-align: center;
   height: 100%;
