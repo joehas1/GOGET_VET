@@ -136,8 +136,10 @@ i{
 }
 
 .buttons-form-time {
-  display: flex;
-  margin-top: 4.875rem;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
 }
 
 .buttons-form-symptom {
@@ -163,4 +165,11 @@ i{
   input {
     position: absolute;
   }
+}
+#home-form {
+  height: 100%;
+  position: relative;
+}
+.home-form {
+  height: 100%;
 }
