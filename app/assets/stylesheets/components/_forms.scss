@@ -2,6 +2,14 @@
 //   display: none;
 // }
 
+.selects-container{
+  flex-grow: 1;
+  justify-content: center;
+}
+.select-wrapper{
+  margin-right:70px;
+}
+
 .container-form {
   margin-right: 5%;
   margin-left: 5%;
@@ -209,7 +217,7 @@ input:checked + label {
 }
 .timepicker-digital-display{
   padding:1.9375rem !important;
-  background-color:#FB9F88 !important;
+  background-color:$pink;
 }
 .text-primary {
   color: $white !important;
@@ -219,7 +227,7 @@ input:checked + label {
   font-size:2rem !important;
 }
 .btn-flat{
-  color:#FB9F88 !important;
+  color:$pink;
 }
 
 .timepicker-display-column{
