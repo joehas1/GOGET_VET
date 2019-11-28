@@ -13,7 +13,7 @@ const y = document.getElementById("time2");
 const w = document.getElementById("time3");
 const wLabel = document.getElementById("time3-label");
 const yLabel = document.getElementById("time2-label");
-
+const navbar = document.querySelector(".nav-logo");
 
 
 
@@ -27,6 +27,7 @@ const symptomForm = document.getElementById("symptom-form")
 triggerVetButton.addEventListener("click", event => {
   appointmentModal.style.display = "block"
   languageForm.style.display = "block"
+  navbar.style.zIndex = 0;
 })
 
 triggerLanguageNext.addEventListener("click", event => {
