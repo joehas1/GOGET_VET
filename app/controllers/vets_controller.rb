@@ -10,7 +10,7 @@ class VetsController < ApplicationController
     #@vets =Vet.all
 
     language_array = []
-    vets = Vet.near("Campeche 233, Hipódromo, Cuauhtémoc, 06100 Ciudad de México, CDMX, Mexico", 200)
+    vets = Vet.near(params[:address], 200)
 
     language_array << "french" if params[:french] == "on"
 
