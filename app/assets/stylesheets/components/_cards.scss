@@ -1,4 +1,4 @@
-.dog-card {
+.dog-card{
   display: flex;
   align-items: center;
   background: $dark-blue;
@@ -7,6 +7,7 @@
   border-radius: 0.25rem;
   height: 6.25rem;
   margin: 0rem 0.9375rem 2.625rem 0.9375rem;
+  width: 23rem;
 }
 
 .dog-card .dog-card-content {
@@ -26,6 +27,11 @@
   font-weight: bold;
   font-size: 0.9375rem;
 }
+
+label:hover, input:focus + label {
+  background-color: $pink;
+}
+
 .dog-card .dog-card-actions {
   display: grid;
 }

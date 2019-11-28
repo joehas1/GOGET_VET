@@ -1,3 +1,11 @@
+.selects-container{
+  flex-grow: 1;
+  justify-content: center;
+}
+.select-wrapper{
+  margin-right:70px;
+}
+
 .container-form {
   margin-right: 5%;
   margin-left: 5%;
@@ -8,7 +16,7 @@
  }
 
 .row-text {
-  padding: 4.1875rem 1.875rem;
+  padding: 3.1875rem 1.875rem;
   color: $black;
   text-align: left;
 }
@@ -22,7 +30,6 @@
  }
 
 .row-blue {
-  width: 23.4375rem;
   height: 24.125rem;
   background-color: $dark-blue;
  }
@@ -109,7 +116,7 @@ p {
   text-align: center;
   font-size: 0.8125rem;
   margin: 1.25rem 1.25rem;
-  padding-left: 3.125rem;
+  width:100%;
 }
 
 .location-address label{
@@ -139,8 +146,9 @@ p {
   height: 15.625rem;
   width: 18.75rem;
   padding: 0.625rem;
-  margin: 2.6875rem 0 0 1.5rem;
-  border: solid 1rem white;
+  margin-top: 2.6875rem;
+  margin-left:10%;
+  border: solid 1px white !important;
   color: white;
   text-align: left;
   line-height: 1.0625rem;
@@ -152,7 +160,7 @@ input {
 }
 
 label {
-  width: 8.125rem;
+  width: 9.125rem;
   margin: 1.25rem 0;
   padding: 1.25rem 1.875rem 1.25rem 1.875rem;
   color: #000000;
@@ -169,13 +177,33 @@ input:checked + label {
   background-color: $pink;
   color: $white;
 }
+
+.modal-overlay {
+  background: none;
+}
+
 .datepicker-modal {
   height: auto;
   top: 0 !important;
+  font-family: montserrat;
 }
 .datepicker{
   border-bottom:none !important;
 }
+
+.datepicker-date-display {
+  background-color: $pink;
+}
+
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+  color: $pink;
+}
+
+.datepicker-table td.is-today {
+  background-color:$pink;
+  color: white;
+}
+
 .timepicker{
   border-bottom:none !important;
 }
@@ -184,17 +212,24 @@ input:checked + label {
   top: 0 !important;
 }
 .timepicker-digital-display{
-  padding:0.9375rem !important;
+  padding:1.9375rem !important;
+  background-color:$pink;
 }
+.text-primary {
+  color: $white !important;
+}
+
 .timepicker-text-container{
   font-size:2rem !important;
 }
+.btn-flat{
+  color:$pink;
+}
+
 .timepicker-display-column{
   bottom:0rem !important;
 }
-.datetime-input {
-  // position: relative;
-}
+
 #time3 {
   text-align: center;
   height: 100%;

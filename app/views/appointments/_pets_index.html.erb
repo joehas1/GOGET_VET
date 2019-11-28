@@ -1,11 +1,11 @@
 <div id="pet-index" style="display: none;">
   <div class="title">
-    <h2>Which one of your pet needs an appointment?</h2>
+    <h2>Which pet needs the appointment?</h2>
   </div>
   <% @pets.each do |pet| %>
     <div class="cards">
-      <div class="dog-card">
-        <img src= '<%=pet.picture%>' class=“avatar-large” />
+      <label class="dog-card">
+        <img src= '<%=pet.picture%>'class="avatar-large" />
         <div class="dog-card-content">
           <p><small><%= pet.name %><small></p>
           <p><%= pet.pets_type %></p>
@@ -14,7 +14,7 @@
           <a href="#"><i class="fas fa-pencil-alt"></i></a>
           <a href="#"><i class="far fa-trash-alt"></i></a>
         </div>
-      </div>
+      </label>
   <%end%>
 
   <div class= buttons-display>
