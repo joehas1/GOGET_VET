@@ -1,3 +1,7 @@
+// .nav-logo {
+//   display: none;
+// }
+
 .container-form {
   margin-right: 5%;
   margin-left: 5%;
@@ -22,7 +26,6 @@
  }
 
 .row-blue {
-  width: 23.4375rem;
   height: 24.125rem;
   background-color: $dark-blue;
  }
@@ -169,13 +172,33 @@ input:checked + label {
   background-color: $pink;
   color: $white;
 }
+
+.modal-overlay {
+  background: none;
+}
+
 .datepicker-modal {
   height: auto;
   top: 0 !important;
+  font-family: montserrat;
 }
 .datepicker{
   border-bottom:none !important;
 }
+
+.datepicker-date-display {
+  background-color: $pink;
+}
+
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+  color: $pink;
+}
+
+.datepicker-table td.is-today {
+  background-color:$pink;
+  color: white;
+}
+
 .timepicker{
   border-bottom:none !important;
 }
@@ -184,8 +207,12 @@ input:checked + label {
   top: 0 !important;
 }
 .timepicker-digital-display{
-  padding:0.9375rem !important;
+  padding:1.9375rem !important;
 }
+.text-primary {
+  color: $white !important;
+}
+
 .timepicker-text-container{
   font-size:2rem !important;
 }

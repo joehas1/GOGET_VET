@@ -18,18 +18,25 @@ h3 {
   top: 0;
   left: 0;
   right: 0;
-  height: 100%;
+  height: 19.5625rem;
   background-image: url(logo-test.png), url(header-semicircle.png);
   background-repeat: no-repeat, no-repeat;
-  background-size: 17.1875rem, 23.625rem;
+  background-size: 16.5625rem, 100%;
   text-align: inherit;
   margin-top: 0rem, 3.75rem;
+
   background-position: top center, top center;
+  z-index: 1;
 }
 
 .nav-links{
   margin-left: 0.9375rem;
   margin-top: 0.9375rem;
+  display: block;
+}
+
+.nav-links :hover {
+  background-color: $dark-blue;
 }
 
 i{
@@ -38,19 +45,25 @@ i{
   color: $white;
 }
 
+.dropdown-item {
+  padding: 1rem 1.5rem;
+}
+
 .home-banner {
-  display: flex;
-  width: 100vw;
+  display: table;
+  width: 100%;
   height: 100vh;
   position: relative;
 }
 
 .home-right{
-  background-image: asset-url('cropped-dog.png');
+  background-image: asset-url('homepage-vet.jpg');
   background-size: cover;
   background-position: center;
-  width: 16.9375rem;
   margin-top:-0.0625rem;
+  position: absolute;
+  right: 0px;
+  width: 50%;
 }
 
 .home-right .btn-pink{
@@ -58,11 +71,13 @@ i{
 }
 
 .home-left{
-  background-image: asset-url('cropped.png');
+  background-image: asset-url('homepage-doctor.png');
   background-size: cover;
   background-position: center;
-  width: 16.9375rem;
   margin-top: 8.5rem;
+  position: absolute;
+  left: 0px;
+  width: 50%;
 }
 
 .home-actions {
