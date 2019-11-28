@@ -4,7 +4,7 @@
   </div>
   <% @pets.each do |pet| %>
     <div class="cards">
-      <div class="dog-card">
+      <label class="dog-card">
         <img src= '<%=pet.picture%>'class="avatar-large" />
         <div class="dog-card-content">
           <p><small><%= pet.name %><small></p>
@@ -14,7 +14,7 @@
           <a href="#"><i class="fas fa-pencil-alt"></i></a>
           <a href="#"><i class="far fa-trash-alt"></i></a>
         </div>
-      </div>
+      </label>
   <%end%>
 
   <div class= buttons-display>
