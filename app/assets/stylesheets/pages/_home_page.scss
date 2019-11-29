@@ -20,7 +20,7 @@ h3 {
   left: 0;
   right: 0;
   height: 19.5625rem;
-  background-image: url(logo-test.png), url(header-semicircle.png);
+  background-image: asset-url('logo-test.png'), asset-url('header-semicircle.png');
   background-repeat: no-repeat, no-repeat;
   background-size: 16.5625rem, 100%;
   text-align: inherit;
